@@ -1,0 +1,23 @@
+{
+  "spellcheck": true,
+  "readableLineLength": false,
+  "foldHeading": true,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "spellcheckDictionary": [
+    "eldarin",
+    "amongst",
+    "Flamerule",
+    "Leshanna",
+    "Dungeoneering",
+    "shuriken",
+    "spectre",
+    "chainmail",
+    "Ioun",
+    "tenday"
+  ]
+}

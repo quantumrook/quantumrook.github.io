@@ -1,0 +1,126 @@
+{
+  "main": {
+    "id": "5e6053f49bf37ddf",
+    "type": "split",
+    "children": [
+      {
+        "id": "a5298b9fae00638f",
+        "type": "leaf",
+        "dimension": 76.88603531300161,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Stylized/Stylized.md",
+            "mode": "source"
+          }
+        },
+        "group": "7fe904d4fa3bdfa4"
+      },
+      {
+        "id": "e9d3f94c5119f729",
+        "type": "leaf",
+        "dimension": 23.113964686998393,
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Stylized/Stylized.md"
+          }
+        },
+        "group": "7fe904d4fa3bdfa4"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "40231c3013075204",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd8c0d3c1d0840e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7049d8e7c3f635e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f14f53d2c9e10e5a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1736b88d9ed63b13",
+    "type": "split",
+    "children": [
+      {
+        "id": "74c2fbd816a7c2ca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee0969f9dcede96a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Stylized/Stylized.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "92cc6475828b556e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Stylized/Stylized.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "a5298b9fae00638f",
+  "lastOpenFiles": [
+    "Stylized/Stylized.md",
+    "Journey/4th Flamerule, 1482.md",
+    "Journey/3rd Flamerule, 1482.md",
+    "Journey/5th Flamerule, 1482.md",
+    "Quests/Diseased Monastery.md",
+    "Important Items/Insane Gem.md",
+    "Quests/Insane Gem Chain/Message from Dalelost.md",
+    "PCs/Stylized.md",
+    "PCs/Quinn.md",
+    "Locations/Ankhapur.md"
+  ]
+}

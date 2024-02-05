@@ -1,0 +1,1 @@
+Female Half-elven properitor of the [[Rusty Chain]], affiliated with the [[Delver's of Ioun]].
