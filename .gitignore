@@ -1,2 +1,3 @@
 .trash/*
-/source/content/References/*
+/source/content/References/*/source
+source/content/.obsidian/workspace.json
