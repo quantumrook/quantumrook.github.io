@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "0571c1c94d829fac",
+        "id": "9fec0c3627c414bf",
         "type": "tabs",
         "children": [
           {
-            "id": "47ef711f7e8c1d64",
+            "id": "d1b3b8af1c2b1914",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2d8837e6263008e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "index.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -160,17 +139,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2d8837e6263008e3",
+  "active": "d1b3b8af1c2b1914",
   "lastOpenFiles": [
-    "Physics/Drag.md",
     "index.md",
+    "Programming/Project-Cartographer/About.md",
+    "Programming/Project-Empyrean/About.md",
+    "Programming/Project-Cartographer",
+    "Programming/Project-Empyrean",
+    "category-folder/Some note.md",
+    "category-folder/index.md",
+    "Physics/Drag.md",
+    "References/Taylor - Classical Mechanics/Notes/2.X Notes.md",
     "References/Taylor - Classical Mechanics/Source/2.5 Motion of a Charge in a Uniform Magnetic Field.md",
     "References/Taylor - Classical Mechanics/Source/2.4 Quadratic Air Resistance.md",
     "References/Taylor - Classical Mechanics/Source/2.3 Trajectory and Range in Linear Medium.md",
     "References/Taylor - Classical Mechanics/Source/2.2 Linear Air Resistance.md",
     "References/Taylor - Classical Mechanics/Source/2.0 Projectiles and Charged Particles.md",
     "References/Taylor - Classical Mechanics/Source/2.1 Air Resistance.md",
-    "References/Taylor - Classical Mechanics/Notes/2.X Notes.md",
     "References/Taylor - Classical Mechanics/Source",
     "References/Taylor - Classical Mechanics/Notes",
     "References/Taylor - Classical Mechanics",
@@ -179,12 +164,9 @@
     "References/Arfken - Mathematical Methods for Physicsts/3.1 Review of Basic Properties.md",
     "References/Arfken - Mathematical Methods for Physicsts",
     "References",
-    "Bibliography.md",
-    "category-folder/index.md",
+    "References/Bibliography.md",
     "Programming",
     "Math",
-    "Physics",
-    "category-folder/Some note.md",
-    "category-folder"
+    "Physics"
   ]
 }

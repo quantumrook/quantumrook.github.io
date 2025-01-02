@@ -1,5 +1,5 @@
 ---
-title: My GitHub Pages Notebook!
+title: Home
 created: 02, Jan, 2025
 modified:
   - 02, Jan, 2025
