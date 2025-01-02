@@ -84,13 +84,12 @@ where $a$ is set to zero, as there is no resistance when $v(t)=0$. This equation
 
 $$
 \textbf{f}_{lin}\big(v(t)\big) \approx -bv(t)\hat{\textbf{v}}\tag{2}
-$$^DragEq2
+$$
+
 
 $$
 \textbf{f}_{quad}\big(v(t)\big) \approx - cv^2(t)\hat{\textbf{v}}\tag{3}
-$$^DragEq3
-
-
+$$
 
 where $b$ and $c$ are the corresponding coefficients for the type of drag, both depending on the the [[viscosity]] of the [[medium]] in which the object is traveling and the object's [[cross-sectional area]].
 
@@ -110,7 +109,9 @@ where $b$ and $c$ are the corresponding coefficients for the type of drag, both 
 
 Usually only one of the terms, $f_{lin}$ or $f_{quad}$ is relevant to the object in question, the dominating term can be revealed by examining the ratio between the quadratic and linear terms:
 
-$$\frac{f_{quad}}{f_{lin}} = \frac{cv^2}{bv} = \frac{\gamma D}{\beta}v$$
+$$
+\frac{f_{quad}}{f_{lin}} = \frac{cv^2}{bv} = \frac{\gamma D}{\beta}v
+$$
 
 An example of this in use can be found [[2.1 Air Resistance#^04f478|here]] using air at STP, or in short:
 
@@ -126,15 +127,21 @@ An example of this in use can be found [[2.1 Air Resistance#^04f478|here]] using
 
 For the case where Linear drag is the dominant component (and quadratic is negligible), the resulting [[equation of motion]] is generally fairly straightforward to solve. The functional form resolves to a [[first-order differential equation]], or in the worst case, a differential equation that can be solved by [[separation of variables]]. Using [[Drag#^DragEq2|Equation (2)]] the equation of motion is defined as
 
-$$m\ddot{\textbf{r}}=m\textbf{g}-b\textbf{v},$$
+$$
+m\ddot{\textbf{r}}=m\textbf{g}-b\textbf{v},
+$$
 
 which is first-order in $v$ (since $\ddot{\textbf{r}}=\dot{\textbf{v}}$). Of technical note, this is an [[inhomogeneous first-order differential equation with constant coefficents]] that is can take the form
 
-$$\dot{\textbf{v}}+\frac{b}{m}\textbf{v}=\textbf{g},$$
+$$
+\dot{\textbf{v}}+\frac{b}{m}\textbf{v}=\textbf{g},
+$$
 
 or in math speak (general form, omitting vector components):
 
-$$\dot{u}+\alpha u = f.$$
+$$
+\dot{u}+\alpha u = f.
+$$
 
 The next important feature of linear drag is that it's equation of motion can be separated to solve each component separately, or in other terms, the **equations of motion are uncoupled**.
 
@@ -146,7 +153,9 @@ The next important feature of linear drag is that it's equation of motion can be
 
 The general solution is then of the form $Ae^{-kt}$ where $k$ is $b/m$ and $A$ is replaced with the initial velocity in the $x$-direction. The most common notation is to introduce a parameter, $\tau$, that is $1/k$ (or $m/b$) such that the final form looks like
 
-$$v_x(t) = v_{x0}e^{-t/\tau}$$^LinearDragHorizontalEOM
+$$
+v_x(t) = v_{x0}e^{-t/\tau} \tag{Linear Drag, Horizontal EOM}
+$$
 
 This equation of motion is then simple to integrate to obtain the description of the object's (horizontal) position using a definite integral,
 
