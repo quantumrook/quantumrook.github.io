@@ -83,12 +83,16 @@ $$
 where $a$ is set to zero, as there is no resistance when $v(t)=0$. This equation is then broken into two separate parts, the **linear** and **quadratic** forms of drag:
 
 $$
-\textbf{f}_{lin}\big(v(t)\big) \approx -bv(t)\hat{\textbf{v}}\tag{2}
+\begin{equation}
+\textbf{f}_{lin}\big(v(t)\big) \approx -bv(t)\hat{\textbf{v}}
+\end{equation}
 $$
 
 
 $$
-\textbf{f}_{quad}\big(v(t)\big) \approx - cv^2(t)\hat{\textbf{v}}\tag{3}
+\begin{equation}
+\textbf{f}_{quad}\big(v(t)\big) \approx - cv^2(t)\hat{\textbf{v}}
+\end{equation}
 $$
 
 where $b$ and $c$ are the corresponding coefficients for the type of drag, both depending on the the [[viscosity]] of the [[medium]] in which the object is traveling and the object's [[cross-sectional area]].
