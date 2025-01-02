@@ -1,7 +1,7 @@
 ---
 title: My GitHub Pages Notebook!
+created: 02, Jan, 2025
+modified:
+  - 02, Jan, 2025
 ---
-
-Hello world!
-
-Write some words here!
+A collection of thoughts from an undergraduate physics student interested in General Relativity, Quantum Mechanics, and Programming.

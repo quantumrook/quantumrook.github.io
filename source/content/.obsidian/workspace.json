@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "category-folder/Some note.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "category-folder/Some note.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "category-folder/Some note.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "category-folder/Some note.md"
+                "file": "index.md"
               }
             }
           }
@@ -151,20 +151,40 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "2d8837e6263008e3",
   "lastOpenFiles": [
-    "category-folder/index.md",
-    "category-folder/Some note.md",
+    "Physics/Drag.md",
     "index.md",
+    "References/Taylor - Classical Mechanics/Source/2.5 Motion of a Charge in a Uniform Magnetic Field.md",
+    "References/Taylor - Classical Mechanics/Source/2.4 Quadratic Air Resistance.md",
+    "References/Taylor - Classical Mechanics/Source/2.3 Trajectory and Range in Linear Medium.md",
+    "References/Taylor - Classical Mechanics/Source/2.2 Linear Air Resistance.md",
+    "References/Taylor - Classical Mechanics/Source/2.0 Projectiles and Charged Particles.md",
+    "References/Taylor - Classical Mechanics/Source/2.1 Air Resistance.md",
+    "References/Taylor - Classical Mechanics/Notes/2.X Notes.md",
+    "References/Taylor - Classical Mechanics/Source",
+    "References/Taylor - Classical Mechanics/Notes",
+    "References/Taylor - Classical Mechanics",
+    "References/Arfken - Mathematical Methods for Physicsts/Vectors.md",
+    "References/Arfken - Mathematical Methods for Physicsts/Contents.canvas",
+    "References/Arfken - Mathematical Methods for Physicsts/3.1 Review of Basic Properties.md",
+    "References/Arfken - Mathematical Methods for Physicsts",
+    "References",
+    "Bibliography.md",
+    "category-folder/index.md",
+    "Programming",
+    "Math",
+    "Physics",
+    "category-folder/Some note.md",
     "category-folder"
   ]
 }
