@@ -22,7 +22,7 @@ modified:
 
 #### Horizontal Equation of motion:
 
-![[Drag#^LinearDragHorizontalEOM]]
+$$\begin{equation}\label{Drag, Horizontal EOM}v_x(t) = v_{x0} e^{-t/\tau}\end{equation}$$
 
 where:
 - $\tau$ is defined in this context as $1/k=m/b$
@@ -85,9 +85,11 @@ $$\textbf{f}_{quad}\big(v(t)\big) \approx - cv^2(t)\hat{\textbf{v}}$$^DragEq3
 where $b$ and $c$ are the corresponding coefficients for the type of drag, both depending on the the [[viscosity]] of the [[medium]] in which the object is traveling and the object's [[cross-sectional area]].
 
 >[!example]+ **Example:** The coefficients defined for Air at [[standard temperature and pressure|STP]]:
-> ![[2.1 Air Resistance#^15bffb]]
-> ![[2.1 Air Resistance#^e15853]]
-> ![[2.1 Air Resistance#^46cdee]]
+>$$b=\beta D \quad c = \gamma D^2$$
+>where $D$  denotes the diameter of the sphere and the coefficients $\beta$ and $\gamma$ depend on the nature of the medium. For a spherical projectile in air at STP, the have the approximate values
+>$$\beta = 1.6\times10^{-4}\text{ N}\cdot\text{s/m}^2$$
+>and
+>$$\gamma = 0.25 \text{ N}\cdot\text{s}^2/\text{m}^4.$$
 > from [[2.1 Air Resistance]] in #src/Taylor-ClassicalMechanics
 
 Usually only one of the terms, $f_{lin}$ or $f_{quad}$ is relevant to the object in question, the dominating term can be revealed by examining the ratio between the quadratic and linear terms:
