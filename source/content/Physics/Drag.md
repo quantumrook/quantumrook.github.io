@@ -76,10 +76,6 @@ $$\textbf{f} \big( v(t) \big) \approx -\left( a+bv(t)+cv^{2}(t) \right) \hat{\te
 
 where $a$ is set to zero, as there is no resistance when $v(t)=0$. This equation is then broken into two separate parts, the **linear** and **quadratic** forms of drag:
 
-$$\tag{2}\textbf{f}_{lin}\big(v(t)\big) \approx -bv(t)\hat{\textbf{v}}$$
-
-$$\tag{3}\textbf{f}_{quad}\big(v(t)\big) \approx - cv^2(t)\hat{\textbf{v}}$$
-
 $$\textbf{f}_{lin}\big(v(t)\big) \approx -bv(t)\hat{\textbf{v}}$$^DragEq2
 
 $$\textbf{f}_{quad}\big(v(t)\big) \approx - cv^2(t)\hat{\textbf{v}}$$^DragEq3
@@ -96,7 +92,7 @@ where $b$ and $c$ are the corresponding coefficients for the type of drag, both 
 
 Usually only one of the terms, $f_{lin}$ or $f_{quad}$ is relevant to the object in question, the dominating term can be revealed by examining the ratio between the quadratic and linear terms:
 
-$$\frac{f_{quad}}{f_{lin}} = \frac{cv^2}{bv} = \frac{\gamma D}{\beta}v \tag{1.4}$$
+$$\frac{f_{quad}}{f_{lin}} = \frac{cv^2}{bv} = \frac{\gamma D}{\beta}v$$
 
 An example of this in use can be found [[2.1 Air Resistance#^04f478|here]] using air at STP, or in short:
 
@@ -132,7 +128,7 @@ The next important feature of linear drag is that it's equation of motion can be
 
 The general solution is then of the form $Ae^{-kt}$ where $k$ is $b/m$ and $A$ is replaced with the initial velocity in the $x$-direction. The most common notation is to introduce a parameter, $\tau$, that is $1/k$ (or $m/b$) such that the final form looks like
 
-$$v_x(t) = v_{x0}e^{-t/\tau}\tag{4}$$^LinearDragHorizontalEOM
+$$v_x(t) = v_{x0}e^{-t/\tau}$$^LinearDragHorizontalEOM
 
 This equation of motion is then simple to integrate to obtain the description of the object's (horizontal) position using a definite integral,
 
