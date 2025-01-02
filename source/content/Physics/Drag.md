@@ -22,7 +22,7 @@ modified:
 
 #### Horizontal Equation of motion:
 
-$$\begin{equation}\label{Drag, Horizontal EOM}v_x(t) = v_{x0} e^{-t/\tau}\end{equation}$$
+$$\begin{equation}\tag{Drag, Horizontal EOM}v_x(t) = v_{x0} e^{-t/\tau}\end{equation}$$
 
 where:
 - $\tau$ is defined in this context as $1/k=m/b$
