@@ -22,7 +22,7 @@ modified:
 
 #### Horizontal Equation of motion:
 
-$$\begin{equation}\tag{Drag, Horizontal EOM}v_x(t) = v_{x0} e^{-t/\tau}\end{equation}$$
+\[\begin{equation}v_x(t) = v_{x0} e^{-t/\tau}\end{equation}\tag{Drag, Horizontal EOM}\]
 
 where:
 - $\tau$ is defined in this context as $1/k=m/b$
@@ -72,13 +72,13 @@ where:
 
 The resistive force, or **drag**, is proportional to the velocity of the object in question in the form of $\textbf{f}_{drag}=\exp{\big(v(t)\big)}\big(-\hat{\textbf{v}}\big)$. Usually, this is Taylor expanded to the first three terms:
 
-$$\tag{1}\textbf{f} \big( v(t) \big) \approx -\left( a+bv(t)+cv^{2}(t) \right) \hat{\textbf{v}}$$
+\[\textbf{f} \big( v(t) \big) \approx -\left( a+bv(t)+cv^{2}(t) \right) \hat{\textbf{v}}\tag{1}\]
 
 where $a$ is set to zero, as there is no resistance when $v(t)=0$. This equation is then broken into two separate parts, the **linear** and **quadratic** forms of drag:
 
-$$\tag{2}\textbf{f}_{lin}\big(v(t)\big) \approx -bv(t)\hat{\textbf{v}}$$^DragEq2
+\[\textbf{f}_{lin}\big(v(t)\big) \approx -bv(t)\hat{\textbf{v}}\tag{2}\]^DragEq2
 
-$$\tag{3}\textbf{f}_{quad}\big(v(t)\big) \approx - cv^2(t)\hat{\textbf{v}}$$^DragEq3
+\[\textbf{f}_{quad}\big(v(t)\big) \approx - cv^2(t)\hat{\textbf{v}}\tag{3}\]^DragEq3
 
 
 
