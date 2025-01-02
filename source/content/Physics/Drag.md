@@ -72,25 +72,31 @@ where:
 
 The resistive force, or **drag**, is proportional to the velocity of the object in question in the form of $\textbf{f}_{drag}=\exp{\big(v(t)\big)}\big(-\hat{\textbf{v}}\big)$. Usually, this is Taylor expanded to the first three terms:
 
-$$\textbf{f} \big( v(t) \big) \approx -\left( a+bv(t)+cv^{2}(t) \right) \hat{\textbf{v}}$$
+$$\tag{1}\textbf{f} \big( v(t) \big) \approx -\left( a+bv(t)+cv^{2}(t) \right) \hat{\textbf{v}}$$
 
 where $a$ is set to zero, as there is no resistance when $v(t)=0$. This equation is then broken into two separate parts, the **linear** and **quadratic** forms of drag:
 
-$$\textbf{f}_{lin}\big(v(t)\big) \approx -bv(t)\hat{\textbf{v}}$$^DragEq2
+$$\tag{2}\textbf{f}_{lin}\big(v(t)\big) \approx -bv(t)\hat{\textbf{v}}$$^DragEq2
 
-$$\textbf{f}_{quad}\big(v(t)\big) \approx - cv^2(t)\hat{\textbf{v}}$$^DragEq3
+$$\tag{3}\textbf{f}_{quad}\big(v(t)\big) \approx - cv^2(t)\hat{\textbf{v}}$$^DragEq3
 
 
 
 where $b$ and $c$ are the corresponding coefficients for the type of drag, both depending on the the [[viscosity]] of the [[medium]] in which the object is traveling and the object's [[cross-sectional area]].
 
 >[!example]+ **Example:** The coefficients defined for Air at [[standard temperature and pressure|STP]]:
->$$b=\beta D \quad c = \gamma D^2$$
+>
+>$$b=\beta D \quad \text{and} \quad c = \gamma D^2$$
+>
 >where $D$  denotes the diameter of the sphere and the coefficients $\beta$ and $\gamma$ depend on the nature of the medium. For a spherical projectile in air at STP, the have the approximate values
+>
 >$$\beta = 1.6\times10^{-4}\text{ N}\cdot\text{s/m}^2$$
+>
 >and
+>
 >$$\gamma = 0.25 \text{ N}\cdot\text{s}^2/\text{m}^4.$$
-> from [[2.1 Air Resistance]] in #src/Taylor-ClassicalMechanics
+>
+>from [[2.1 Air Resistance]] in #src/Taylor-ClassicalMechanics
 
 Usually only one of the terms, $f_{lin}$ or $f_{quad}$ is relevant to the object in question, the dominating term can be revealed by examining the ratio between the quadratic and linear terms:
 
@@ -122,7 +128,7 @@ $$\dot{u}+\alpha u = f.$$
 
 The next important feature of linear drag is that it's equation of motion can be separated to solve each component separately, or in other terms, the **equations of motion are uncoupled**.
 
->[!quote]+ #src/Taylor-ClassicalMechanics, [[2.2 Linear Air Resistance#2.2 Linear Air Resistance|2.2 Linear Air Resistance, Pages 46-53]]
+>[!quote]- #src/Taylor-ClassicalMechanics, [[2.2 Linear Air Resistance#2.2 Linear Air Resistance|2.2 Linear Air Resistance, Pages 46-53]]
 > ![[2.2 Linear Air Resistance#^0a86ea]]
 > ![[2.2 Linear Air Resistance#^a96eec]]
 > ![[2.2 Linear Air Resistance#^de5cec]]
@@ -136,7 +142,7 @@ This equation of motion is then simple to integrate to obtain the description of
 
 ![[2.2 Linear Air Resistance#^3c5f08]]
 
-The resulting form is given by [[B]]
+The resulting form is given by 
 
 # Quadratic Drag
 
