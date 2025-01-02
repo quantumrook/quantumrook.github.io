@@ -72,10 +72,8 @@ where:
 
 The resistive force, or **drag**, is proportional to the velocity of the object in question in the form of $\textbf{f}_{drag}=\exp{\big(v(t)\big)}\big(-\hat{\textbf{v}}\big)$. Usually, this is Taylor expanded to the first three terms:
 
-$$\begin{aligned}
-\textbf{f}\big(v(t)\big) &\approx - \left(a+bv(t)+cv^2(t)\right)\hat{\textbf{v}}\\
-&\approx -bv(t) - cv^2(t)\hat{\textbf{v}}
-\end{aligned}$$
+\begin{align*}\textbf{f}\big(v(t)\big) &\approx - \left(a+bv(t)+cv^2(t)\right)\hat{\textbf{v}}\\
+&\approx -bv(t) - cv^2(t)\hat{\textbf{v}}\end{align*}
 
 where $a$ is set to zero, as there is no resistance when $v(t)=0$. This equation is then broken into two separate parts, the **linear** and **quadratic** forms of drag:
 
