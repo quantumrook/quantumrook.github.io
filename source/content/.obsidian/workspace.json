@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/index.md",
+                "file": "References/Arfken - Mathematical Methods for Physicsts/Vectors.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/index.md",
+                "file": "References/Arfken - Mathematical Methods for Physicsts/Vectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/index.md",
+                "file": "References/Arfken - Mathematical Methods for Physicsts/Vectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/index.md"
+                "file": "References/Arfken - Mathematical Methods for Physicsts/Vectors.md"
               }
             }
           }
@@ -149,17 +149,21 @@
   },
   "active": "a09ba2bd294792fd",
   "lastOpenFiles": [
-    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/index.md",
-    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/index.md",
-    "Tutorials/Fetching your own Forecast (IPython)/4. Optional - Taking things a step further/index.md",
+    "References/Arfken - Mathematical Methods for Physicsts/index.md",
+    "References/Arfken - Mathematical Methods for Physicsts/Vectors.md",
+    "References/Taylor - Classical Mechanics/index.md",
+    "References/Taylor - Classical Mechanics/Notes/index.md",
+    "References/Bibliography.md",
+    "References/index.md",
     "Tutorials/Fetching your own Forecast (IPython)/5. Appendix/index.md",
+    "Tutorials/Fetching your own Forecast (IPython)/4. Optional - Taking things a step further/index.md",
+    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/index.md",
+    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/index.md",
+    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/index.md",
     "Tutorials/Fetching your own Forecast (IPython)/index.md",
     "Tutorials/index.md",
     "index.md",
-    "References/index.md",
     "References/Arfken - Mathematical Methods for Physicsts/3.1 Review of Basic Properties.md",
-    "References/Arfken - Mathematical Methods for Physicsts/index.md",
-    "References/Taylor - Classical Mechanics/index.md",
     "Programming/index.md",
     "Programming/Project-Empyrean/index.md",
     "Programming/Project-Cartographer/index.md",
@@ -168,14 +172,10 @@
     "Tutorials/Fetching your own Forecast (IPython)/overview.md",
     "Programming/Project-Cartographer/About.md",
     "Programming/Project-Empyrean/About.md",
-    "References/Taylor - Classical Mechanics/Notes/index.md",
-    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/index.md",
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/imports_unresolved.png",
     "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
     "Tutorials/Fetching your own Forecast (IPython)/5. Appendix/Using a python file instead.md",
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/0. Step by Step.md",
-    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/1. Getting a result using your browser.md",
-    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/1. Python.md",
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/imports_resolved.png",
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/python_extension.png",
     "Tutorials/Fetching your own Forecast (IPython)/5. Appendix",

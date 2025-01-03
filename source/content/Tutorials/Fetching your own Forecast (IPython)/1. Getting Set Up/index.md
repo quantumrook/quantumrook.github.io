@@ -1,5 +1,5 @@
 ---
-title: Getting Set Up
+title: 1. Getting Set Up
 created: 03, Jan, 2025
 modified:
   - 03, Jan, 2025
