@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Physics/Drag.md",
+                "file": "Tutorials/Fetching your own Forecast (IPython)/index.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physics/Drag.md",
+                "file": "Tutorials/Fetching your own Forecast (IPython)/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physics/Drag.md",
+                "file": "Tutorials/Fetching your own Forecast (IPython)/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physics/Drag.md"
+                "file": "Tutorials/Fetching your own Forecast (IPython)/index.md"
               }
             }
           }
@@ -149,14 +149,22 @@
   },
   "active": "d1b3b8af1c2b1914",
   "lastOpenFiles": [
-    "Programming/Project-Empyrean/About.md",
-    "Programming/Project-Cartographer/About.md",
+    "Tutorials/Fetching your own Forecast (IPython)/Forecaster.ipynb",
     "index.md",
+    "Tutorials/Fetching your own Forecast (IPython)/index.md",
+    "Physics/Drag.md",
+    "Tutorials/Fetching your own Forecast (IPython)/with an interactive Python Notebook",
+    "Tutorials/Fetching your own Forecast (IPython)",
+    "Tutorials",
+    "Programming/Untitled",
+    "Programming/Project-Empyrean/Using an IPython Notebook",
+    "Programming/Project-Empyrean/Forecaster.ipynb",
+    "Programming/Project-Cartographer/About.md",
+    "Programming/Project-Empyrean/About.md",
     "Programming/Project-Cartographer",
     "Programming/Project-Empyrean",
     "category-folder/Some note.md",
     "category-folder/index.md",
-    "Physics/Drag.md",
     "References/Taylor - Classical Mechanics/Notes/2.X Notes.md",
     "References/Taylor - Classical Mechanics/Source/2.5 Motion of a Charge in a Uniform Magnetic Field.md",
     "References/Taylor - Classical Mechanics/Source/2.4 Quadratic Air Resistance.md",
@@ -166,15 +174,9 @@
     "References/Taylor - Classical Mechanics/Source/2.1 Air Resistance.md",
     "References/Taylor - Classical Mechanics/Source",
     "References/Taylor - Classical Mechanics/Notes",
-    "References/Taylor - Classical Mechanics",
     "References/Arfken - Mathematical Methods for Physicsts/Vectors.md",
     "References/Arfken - Mathematical Methods for Physicsts/Contents.canvas",
     "References/Arfken - Mathematical Methods for Physicsts/3.1 Review of Basic Properties.md",
-    "References/Arfken - Mathematical Methods for Physicsts",
-    "References",
-    "References/Bibliography.md",
-    "Programming",
-    "Math",
-    "Physics"
+    "References/Bibliography.md"
   ]
 }
