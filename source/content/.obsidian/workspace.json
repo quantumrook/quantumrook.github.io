@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "References/Arfken - Mathematical Methods for Physicsts/Vectors.md",
+                "file": "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/0. What is an API.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "References/Arfken - Mathematical Methods for Physicsts/Vectors.md",
+                "file": "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/0. What is an API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "References/Arfken - Mathematical Methods for Physicsts/Vectors.md",
+                "file": "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/0. What is an API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +125,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "References/Arfken - Mathematical Methods for Physicsts/Vectors.md"
+                "file": "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/0. What is an API.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,8 +149,14 @@
   },
   "active": "a09ba2bd294792fd",
   "lastOpenFiles": [
-    "References/Arfken - Mathematical Methods for Physicsts/index.md",
+    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/weather-gov-location.png",
+    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/weather-gov-forecast.png",
+    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/0. What is an API.md",
+    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/1. The Types of Requests.md",
+    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/2. Getting a result using your browser.md",
+    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/3. Building a Request.md",
     "References/Arfken - Mathematical Methods for Physicsts/Vectors.md",
+    "References/Arfken - Mathematical Methods for Physicsts/index.md",
     "References/Taylor - Classical Mechanics/index.md",
     "References/Taylor - Classical Mechanics/Notes/index.md",
     "References/Bibliography.md",
@@ -170,12 +176,7 @@
     "Math/index.md",
     "Physics/index.md",
     "Tutorials/Fetching your own Forecast (IPython)/overview.md",
-    "Programming/Project-Cartographer/About.md",
-    "Programming/Project-Empyrean/About.md",
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/imports_unresolved.png",
-    "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
-    "Tutorials/Fetching your own Forecast (IPython)/5. Appendix/Using a python file instead.md",
-    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/0. Step by Step.md",
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/imports_resolved.png",
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/python_extension.png",
     "Tutorials/Fetching your own Forecast (IPython)/5. Appendix",

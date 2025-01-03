@@ -13,8 +13,8 @@ Each step is broken down by logical dependency: e.g., you need an editor before 
 	3. [[3. Required Libraries| Required Libraries]]
 	4. [[4. (Optional) Github|Optional: Github]]
 2. Understanding the API
-	1. [[1. Getting a result using your browser|Getting a result using your browser]]
-	2. [[2. The Types of Requests|The Types of Requests]]
+	1. [[2. Getting a result using your browser|Getting a result using your browser]]
+	2. [[1. The Types of Requests|The Types of Requests]]
 	3. [[3. Building a Request|Building a Request using the requests library]]
 3. Converting and Displaying the Data
 	1. [[1. Making the dataclass|Making the ForecastData dataclass]]
