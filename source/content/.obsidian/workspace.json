@@ -4,36 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "418ef34cc4d32692",
+        "id": "c14ebb36ecdf8203",
         "type": "tabs",
         "children": [
           {
-            "id": "9e8826e7b38920c3",
+            "id": "a09ba2bd294792fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/5. Appendix/Using a python file instead.md",
+                "file": "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/1. Editor.md",
                 "mode": "source",
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "11c352e6f6ed390e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f54357a590eea986",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
-                "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -103,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/5. Appendix/Using a python file instead.md",
+                "file": "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/1. Editor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/5. Appendix/Using a python file instead.md",
+                "file": "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/1. Editor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/5. Appendix/Using a python file instead.md"
+                "file": "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/1. Editor.md"
               }
             }
           }
@@ -165,29 +147,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e8826e7b38920c3",
+  "active": "a09ba2bd294792fd",
   "lastOpenFiles": [
-    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/4. (Optional) Github.md",
-    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/1. Editor.md",
-    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/2. Python.md",
-    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/3. Required Libraries.md",
-    "Tutorials/Fetching your own Forecast (IPython)/4. Optional - Taking things a step further/1. Creating a temperature plot.md",
+    "Tutorials/Fetching your own Forecast (IPython)/overview.md",
     "Tutorials/Fetching your own Forecast (IPython)/4. Optional - Taking things a step further/2. Saving the output into a file.md",
-    "Tutorials/Fetching your own Forecast (IPython)/5. Appendix/Using a python file instead.md",
-    "Tutorials/Fetching your own Forecast (IPython)/5. Appendix",
+    "Tutorials/Fetching your own Forecast (IPython)/4. Optional - Taking things a step further/1. Creating a temperature plot.md",
     "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/3. Formatting the output.md",
-    "Tutorials/Fetching your own Forecast (IPython)/4. Optional - Taking things a step further",
     "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/2. Adding Helper functions.md",
     "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the dataclass.md",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/3. Building a Request.md",
-    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/2. The Types of Requests.md",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/1. Getting a result using your browser.md",
+    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/4. (Optional) Github.md",
+    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/3. Required Libraries.md",
+    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/2. Python.md",
+    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/1. Editor.md",
+    "Tutorials/Fetching your own Forecast (IPython)/5. Appendix/Using a python file instead.md",
+    "Tutorials/Fetching your own Forecast (IPython)/5. Appendix",
+    "Tutorials/Fetching your own Forecast (IPython)/4. Optional - Taking things a step further",
+    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API",
     "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up",
     "Tutorials/Fetching your own Forecast (IPython)/quick start.md",
-    "Tutorials/Fetching your own Forecast (IPython)/overview.md",
     "Tutorials/Fetching your own Forecast (IPython)/index.md",
     "Tutorials/Fetching your own Forecast (IPython)/Forecaster.ipynb",
     "index.md",
