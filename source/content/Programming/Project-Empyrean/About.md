@@ -2,8 +2,11 @@
 title: About Project Empyrean
 created: 02, Jan, 2025
 modified:
+  - 03, Jan, 2025
   - 02, Jan, 2025
 ---
+## Summary
+
 The goal of this project was to hook up to the [National Weather Service API](https://www.weather.gov/documentation/services-web-api) and fetch the `.json` files and process them into a non-technical-user friendly format. While the [weather.gov](https://www.weather.gov/) service already does an excellent job at providing this information, one of the requirements was to be able to provide this to a user (in the original design case: my mother) without requiring them to open a browser or use their phone. The goal was to create a service that would automatically format a markdown file and be ready for print (or otherwise reference) every morning.
 
 # Versions

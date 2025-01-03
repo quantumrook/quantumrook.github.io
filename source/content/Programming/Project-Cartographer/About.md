@@ -2,9 +2,11 @@
 title: About Project Cartographer
 created: 02, Jan, 2025
 modified:
+  - 03, Jan, 2025
   - 02, Jan, 2025
 ---
-> TODO: upload source code
+> [!todo] TODO: upload source code
+## Summary
 
 Project Cartographer was the python project I created for my undergraduate thesis. The gist is I made a series of scripts that would used [matplotlib](https://matplotlib.org/) to generate animations for the trajectory of objects transiting near a [Schwarzschild black hole](https://en.wikipedia.org/wiki/Schwarzschild_metric).
 
@@ -17,7 +19,7 @@ On the todo list is to refactor the code using a dynamic grid to improve the pat
 
 ## Static vs Dynamic Spacetime Grids
 
-> What do I mean by this?
+>[!question] What do I mean by this?
 
 The current implementation, a static grid, is your typical 2-dimensional array creating a mesh for the spacetime. The vertices are at uniform step sizes in `x` and `y` (converted to `r` and $\phi$ to better reflect the symmetry).
 

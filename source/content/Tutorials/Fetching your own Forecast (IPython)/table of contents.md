@@ -15,13 +15,13 @@ Each step is broken down by logical dependency: e.g., you need an editor before 
 2. Understanding the API
 	1. [[1. Getting a result using your browser|Getting a result using your browser]]
 	2. [[2. The Types of Requests|The Types of Requests]]
-	3. [[3. Building a Request|Building a Request using the `requests` library]]
+	3. [[3. Building a Request|Building a Request using the requests library]]
 3. Converting and Displaying the Data
-	1. [[1. Making the dataclass|Making the `ForecastData` dataclass]]
+	1. [[1. Making the dataclass|Making the ForecastData dataclass]]
 	2. [[2. Adding Helper functions|Adding Helper functions (for conversion)]]
 	3. [[3. Formatting the output|Formatting the output]]
 4. Optional: Taking things one step further
-	1. [[1. Creating a temperature plot|Creating a temperature plot with `matplotlib`]]
+	1. [[1. Creating a temperature plot|Creating a temperature plot with matplotlib]]
 	2. [[2. Saving the output into a file|Saving the output into a markdown file]]
 5. Appendix:
 	1. [[Using a python file instead|Using a `.py` file instead of an IPython Notebook]]

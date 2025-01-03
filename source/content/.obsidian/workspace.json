@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/0. Step by Step.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/0. Step by Step.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/0. Step by Step.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/0. Step by Step.md"
+                "file": "index.md"
               }
             }
           }
@@ -149,44 +149,45 @@
   },
   "active": "a09ba2bd294792fd",
   "lastOpenFiles": [
-    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/2. Editor.md",
-    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/0. Step by Step.md",
-    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/1. Python.md",
-    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/3. Required Libraries.md",
-    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/4. (Optional) Github.md",
+    "Tutorials/index.md",
+    "index.md",
+    "Tutorials/Fetching your own Forecast (IPython)/index.md",
+    "Tutorials/Fetching your own Forecast (IPython)/overview.md",
+    "Programming/Project-Cartographer/About.md",
+    "Programming/Project-Empyrean/About.md",
+    "Programming/Project-Cartographer/index.md",
+    "Math/index.md",
+    "Physics/index.md",
+    "Programming/index.md",
+    "Programming/Project-Empyrean/index.md",
+    "References/Arfken - Mathematical Methods for Physicsts/index.md",
+    "References/Taylor - Classical Mechanics/Notes/index.md",
+    "References/Taylor - Classical Mechanics/index.md",
+    "References/index.md",
+    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/index.md",
+    "Tutorials/Fetching your own Forecast (IPython)/5. Appendix/index.md",
+    "Tutorials/Fetching your own Forecast (IPython)/4. Optional - Taking things a step further/index.md",
+    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/index.md",
+    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/index.md",
+    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/imports_unresolved.png",
     "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
+    "Tutorials/Fetching your own Forecast (IPython)/5. Appendix/Using a python file instead.md",
+    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/0. Step by Step.md",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/1. Getting a result using your browser.md",
+    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/1. Python.md",
+    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/2. Editor.md",
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/imports_resolved.png",
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/python_extension.png",
-    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/imports_unresolved.png",
-    "Tutorials/Fetching your own Forecast (IPython)/overview.md",
-    "Tutorials/Fetching your own Forecast (IPython)/4. Optional - Taking things a step further/2. Saving the output into a file.md",
-    "Tutorials/Fetching your own Forecast (IPython)/4. Optional - Taking things a step further/1. Creating a temperature plot.md",
-    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/3. Formatting the output.md",
-    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/2. Adding Helper functions.md",
-    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the dataclass.md",
-    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/3. Building a Request.md",
-    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/2. The Types of Requests.md",
-    "Tutorials/Fetching your own Forecast (IPython)/5. Appendix/Using a python file instead.md",
     "Tutorials/Fetching your own Forecast (IPython)/5. Appendix",
     "Tutorials/Fetching your own Forecast (IPython)/4. Optional - Taking things a step further",
     "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API",
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up",
-    "Tutorials/Fetching your own Forecast (IPython)/quick start.md",
-    "Tutorials/Fetching your own Forecast (IPython)/index.md",
     "Tutorials/Fetching your own Forecast (IPython)/Forecaster.ipynb",
-    "index.md",
-    "Physics/Drag.md",
     "Tutorials/Fetching your own Forecast (IPython)/with an interactive Python Notebook",
     "Tutorials/Fetching your own Forecast (IPython)",
     "Tutorials",
     "Programming/Untitled",
-    "Programming/Project-Cartographer/About.md",
-    "Programming/Project-Empyrean/About.md",
-    "category-folder/Some note.md",
-    "category-folder/index.md",
-    "References/Taylor - Classical Mechanics/Notes/2.X Notes.md",
     "References/Arfken - Mathematical Methods for Physicsts/Contents.canvas"
   ]
 }
