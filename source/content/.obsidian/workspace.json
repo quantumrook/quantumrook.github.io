@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "9fec0c3627c414bf",
+        "id": "418ef34cc4d32692",
         "type": "tabs",
         "children": [
           {
-            "id": "d1b3b8af1c2b1914",
+            "id": "9e8826e7b38920c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Tutorials/Fetching your own Forecast (IPython)/index.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -147,11 +147,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d1b3b8af1c2b1914",
+  "active": "9e8826e7b38920c3",
   "lastOpenFiles": [
+    "Tutorials/Fetching your own Forecast (IPython)/overview.md",
+    "Tutorials/Fetching your own Forecast (IPython)/index.md",
     "Tutorials/Fetching your own Forecast (IPython)/Forecaster.ipynb",
     "index.md",
-    "Tutorials/Fetching your own Forecast (IPython)/index.md",
     "Physics/Drag.md",
     "Tutorials/Fetching your own Forecast (IPython)/with an interactive Python Notebook",
     "Tutorials/Fetching your own Forecast (IPython)",
@@ -173,7 +174,6 @@
     "References/Taylor - Classical Mechanics/Source/2.0 Projectiles and Charged Particles.md",
     "References/Taylor - Classical Mechanics/Source/2.1 Air Resistance.md",
     "References/Taylor - Classical Mechanics/Source",
-    "References/Taylor - Classical Mechanics/Notes",
     "References/Arfken - Mathematical Methods for Physicsts/Vectors.md",
     "References/Arfken - Mathematical Methods for Physicsts/Contents.canvas",
     "References/Arfken - Mathematical Methods for Physicsts/3.1 Review of Basic Properties.md",
