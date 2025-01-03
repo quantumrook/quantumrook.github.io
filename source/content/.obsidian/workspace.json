@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/2. Getting a result using your browser.md",
+                "file": "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/2. Getting a result using your browser.md",
+                "file": "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/2. Getting a result using your browser.md",
+                "file": "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/2. Getting a result using your browser.md"
+                "file": "Tutorials/Fetching your own Forecast (IPython)/table of contents.md"
               }
             }
           }
@@ -149,11 +149,11 @@
   },
   "active": "a09ba2bd294792fd",
   "lastOpenFiles": [
+    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/2. Getting a result using your browser.md",
+    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/0. What is an API.md",
+    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/1. The Types of Requests.md",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/3. Building a Points Request.md",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/4. Building the Forecast Request.md",
-    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/2. Getting a result using your browser.md",
-    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/1. The Types of Requests.md",
-    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/0. What is an API.md",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/weather-gov-location.png",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/weather-gov-forecast.png",
     "References/Arfken - Mathematical Methods for Physicsts/Vectors.md",
