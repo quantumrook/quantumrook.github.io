@@ -8,7 +8,6 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   const baseDir = pathToRoot(fileData.slug!)
   return (
     <h2 class={classNames(displayClass, "page-title")}>
-      <link rel="icon" href="https://quantumrook.github.io/static/icon.png" />
       <a href={baseDir}>{title}</a>
     </h2>
   )
