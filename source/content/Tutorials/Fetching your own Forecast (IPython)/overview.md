@@ -21,153 +21,119 @@ We want to be able to:
 
 ## Example Output
 
-> TODO: make sure this matches the tutorial
-
 We use this to get all the data from the API:
 
 ```py
-response = None
+from datetime import datetime
+import time
 
-if is_reasonable_to_request_new_forecast() == True:
-    points_url = f'https://api.weather.gov/points/{LATTITUDE},{LONGITUDE}'
-    print(f'Getting data for {LATTITUDE,LONGITUDE}...\n')
+import requests
 
-    response = requests.get(url=points_url)
+#Optional:
+# import matplotlib.pyplot as plt
+# import numpy as np
 
-if response is None:
-    #You're most likely attempting to retrieve forecast data while the currently loaded data set is still valid
-    raise StopExecution
+latitude = 45.5958
+longitude = -122.6092
 
-LAST_TIME_QUERIED = datetime.now()
+points_url = f"https://api.weather.gov/points/{latitude},{longitude}"
 
-if (response.status_code == HTML_ERROR_CODE) == True:
+response = requests.get(url=points_url)
 
-    print("Something went wrong with requesting data. Please verify the lattitude and longitude are correct before retrying.")
+print(response.status_code) #200 means everything worked
+if response.status_code == 404:
+    print("Something went wrong with requesting data. Please verify the latitude and longitude are correct before retrying.")
     print(f'\tService Error Message:\n\t\t{response.json()["detail"]}')
-    raise StopExecution
 
-if (response.status_code == HTML_OK_CODE) == True:
+if response.status_code == 200:
     points_data = response.json()
 
-    forecast_urls = {
-        "extended" : points_data["properties"]["forecast"],
-        "hourly" : points_data["properties"]["forecastHourly"]
-    }
+forecast_urls = [
+    points_data["properties"]["forecast"],
+    points_data["properties"]["forecastHourly"]
+]
 
-    raw_forecast_data = {
-        "extended" : { },
-        "hourly" : { }
-    }
+forecast_response = [ ]
 
-  
+for request_url in forecast_urls:
+    #Add delay to prevent requesting too quickly, otherwise Weather.gov will return invalid responses
+    print(f'\tWaiting 2 seconds before sending request to avoid exceeding the request limit.')
+    time.sleep(2)
 
-    for forecast_type, forecast_url in forecast_urls.items():
-        #Add delay to prevent requesting too quickly, otherwise Weather.gov will return invalid responses
-        time_delay = 5
-        print(f'\tWaiting {time_delay} seconds before sending request to avoid exceeding the request limit.')
-        time.sleep(time_delay)
+    response = requests.get(url=request_url)
 
-        #Request the forecast
-        print(f'\t\tRequesting the {forecast_type} forecast...')
-        raw_forecast_data[forecast_type] = requests.get(url=forecast_url)
+    if response.status_code == 200:
+        print("\tRequest successful.")
+        forecast_response.append(response.json())
+    else:
+        print("\tRequest failed.")
+        print(f"Status code: {response.status_code}")
+        break
 
-        if is_good_response(raw_forecast_data[forecast_type], f'Verify that the grid coordinates for the specified lattitude and longitude {LATTITUDE,LONGITUDE} were retreived correctly.'):
-            print(f'\tRequest "{forecast_type}" completed.\n')
-        else:
-            #We exit the loop if there is an issue to avoid sending another invalid request
-            raise StopExecution
+hourly_data = forecast_response[1]
+today = datetime.strftime(datetime.today(), "%Y-%m-%d")
+
+print("## Today's Hourly Forecast")
+print("| Time | Temperature (\N{DEGREE SIGN}F) | Chance of Rain (%)|")
+print("| :--: | :---------: | :------------: |")
+
+for period in hourly_data["properties"]["periods"]:
+    period_date, period_time = period["startTime"].split("T")
+
+    if period_date != today:
+        break
+
+    hour, minute, *extra = period_time.split(":")
+    print(f"| {hour}:{minute} | {period["temperature"]} | {period["probabilityOfPrecipitation"]["value"]} |")
 ```
 
 which gives this output for Portland, OR:
 
 ```
-Last time queried:            2025-01-03 05:58
-No current forecast data, request is reasonable.
-Getting data for (45.5978, -122.6092)...
-
-	Waiting 5 seconds before sending request to avoid exceeding the request limit.
-		Requesting the extended forecast...
-		Data recieved.
-	Request "extended" completed.
-
-	Waiting 5 seconds before sending request to avoid exceeding the request limit.
-		Requesting the hourly forecast...
-		Data recieved.
-	Request "hourly" completed.
-```
-
-And this helper function to print the output as a markdown table:
-
-```py
-def print_forecast_as_markdown():
-
-    for dates, times in dates_and_times.items():
-        print(f'# {dates}\'s Forecast by the Hour:\n')
-        print(f'| Time | ({DEGREE_SIGN}{temperature_unit}): Temperature, Wind Chill | Chance of Rain (%) | Forecast Comments |')
-        print(f'| ---- | ---------------------------------------------- | ------------------ | ----------------- |')
-        for t in times:
-            rebuilt_date_time = f'{dates} {t}'
-            temperature_and_windchill = f'{hourly_data[rebuilt_date_time].temperature}'
-            if (hourly_data[rebuilt_date_time].wind_chill == 0) == False:
-                temperature_and_windchill += f', {hourly_data[rebuilt_date_time].wind_chill}'
-            forecast_comments = hourly_data[rebuilt_date_time].forecast_short
-            if (hourly_data[rebuilt_date_time].forecast_detail == "") == False:
-                forecast_comments += f'<br>{hourly_data[rebuilt_date_time].forecast_detail}'
-            print(f'| {t} | {temperature_and_windchill} | {hourly_data[rebuilt_date_time].percent_precipitation} | {forecast_comments} |')
-        print("\n")
+	Waiting 2 seconds before sending request to avoid exceeding the request limit.
+	Request successful.
+	Waiting 2 seconds before sending request to avoid exceeding the request limit.
+	Request successful.
 ```
 
 And here's the Markdown Table:
 
 ```markdown
-# 2025-01-03's Forecast by the Hour:
-
-| Time | (°F): Temperature, Wind Chill | Chance of Rain (%) | Forecast Comments |
-| ---- | ---------------------------------------------- | ------------------ | ----------------- |
-| 05:00 | 44, 36 | 90 | Rain |
-| 06:00 | 45, 37 | 92 | Rain |
-| 07:00 | 45, 38 | 93 | Rain |
-| 08:00 | 45, 38 | 89 | Rain |
-| 09:00 | 47, 41 | 79 | Rain |
-| 10:00 | 48, 42 | 56 | Rain Showers Likely |
-| 11:00 | 48, 42 | 56 | Rain Showers Likely |
-| 12:00 | 51 | 56 | Rain Showers Likely |
-| 13:00 | 50, 45 | 54 | Chance Rain Showers |
-| 14:00 | 50, 45 | 54 | Chance Rain Showers |
-| 15:00 | 50, 45 | 54 | Chance Rain Showers |
-| 16:00 | 49, 44 | 34 | Chance Rain Showers |
-| 17:00 | 49, 44 | 29 | Chance Rain Showers |
-| 18:00 | 47, 42 | 38 | Chance Rain Showers |
-| 19:00 | 48, 42 | 32 | Chance Rain Showers |
-| 20:00 | 47, 42 | 39 | Chance Rain Showers |
-| 21:00 | 46, 40 | 53 | Chance Rain Showers |
-| 22:00 | 46, 41 | 28 | Chance Rain Showers |
-| 23:00 | 46, 41 | 32 | Chance Rain Showers |
+### Today's Hourly Forecast
+| Time | Temperature (°F) | Chance of Rain (%)|
+| :--: | :---------: | :------------: |
+| 11:00 | 47 | 62 |
+| 12:00 | 48 | 82 |
+| 13:00 | 48 | 89 |
+| 14:00 | 49 | 93 |
+| 15:00 | 50 | 97 |
+| 16:00 | 49 | 99 |
+| 17:00 | 49 | 94 |
+| 18:00 | 49 | 80 |
+| 19:00 | 49 | 69 |
+| 20:00 | 49 | 61 |
+| 21:00 | 49 | 56 |
+| 22:00 | 49 | 56 |
+| 23:00 | 49 | 51 |
 ```
 
-### 2025-01-03's Forecast by the Hour:
+### Today's Hourly Forecast
 
-| Time | (°F): Temperature, Wind Chill | Chance of Rain (%) | Forecast Comments |
-| ---- | ---------------------------------------------- | ------------------ | ----------------- |
-| 05:00 | 44, 36 | 90 | Rain |
-| 06:00 | 45, 37 | 92 | Rain |
-| 07:00 | 45, 38 | 93 | Rain |
-| 08:00 | 45, 38 | 89 | Rain |
-| 09:00 | 47, 41 | 79 | Rain |
-| 10:00 | 48, 42 | 56 | Rain Showers Likely |
-| 11:00 | 48, 42 | 56 | Rain Showers Likely |
-| 12:00 | 51 | 56 | Rain Showers Likely |
-| 13:00 | 50, 45 | 54 | Chance Rain Showers |
-| 14:00 | 50, 45 | 54 | Chance Rain Showers |
-| 15:00 | 50, 45 | 54 | Chance Rain Showers |
-| 16:00 | 49, 44 | 34 | Chance Rain Showers |
-| 17:00 | 49, 44 | 29 | Chance Rain Showers |
-| 18:00 | 47, 42 | 38 | Chance Rain Showers |
-| 19:00 | 48, 42 | 32 | Chance Rain Showers |
-| 20:00 | 47, 42 | 39 | Chance Rain Showers |
-| 21:00 | 46, 40 | 53 | Chance Rain Showers |
-| 22:00 | 46, 41 | 28 | Chance Rain Showers |
-| 23:00 | 46, 41 | 32 | Chance Rain Showers |
+| Time | Temperature (°F) | Chance of Rain (%)|
+| :--: | :---------: | :------------: |
+| 11:00 | 47 | 62 |
+| 12:00 | 48 | 82 |
+| 13:00 | 48 | 89 |
+| 14:00 | 49 | 93 |
+| 15:00 | 50 | 97 |
+| 16:00 | 49 | 99 |
+| 17:00 | 49 | 94 |
+| 18:00 | 49 | 80 |
+| 19:00 | 49 | 69 |
+| 20:00 | 49 | 61 |
+| 21:00 | 49 | 56 |
+| 22:00 | 49 | 56 |
+| 23:00 | 49 | 51 |
 
 Let's get started!
 

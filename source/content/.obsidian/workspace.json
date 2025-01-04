@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
+                "file": "Tutorials/Fetching your own Forecast (IPython)/quick start.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
+                "file": "Tutorials/Fetching your own Forecast (IPython)/quick start.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
+                "file": "Tutorials/Fetching your own Forecast (IPython)/quick start.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/table of contents.md"
+                "file": "Tutorials/Fetching your own Forecast (IPython)/quick start.md"
               }
             }
           }
@@ -149,10 +149,12 @@
   },
   "active": "1c19ee286f814bb3",
   "lastOpenFiles": [
-    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/4. Building the Forecast Request.md",
-    "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
+    "Tutorials/Fetching your own Forecast (IPython)/overview.md",
     "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/0. Just getting it done.md",
     "Tutorials/Fetching your own Forecast (IPython)/quick start.md",
+    "Tutorials/Fetching your own Forecast (IPython)/Tutorial_Basic.ipynb",
+    "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
+    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/4. Building the Forecast Request.md",
     "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/final_notebook.png",
     "{0BE3158B-CF98-4CC1-AFD2-8042AE9EB980}.png",
     "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the dataclass.md",
@@ -164,7 +166,6 @@
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/1. Python.md",
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/0. Step by Step.md",
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/index.md",
-    "Tutorials/Fetching your own Forecast (IPython)/overview.md",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/forecast_request_path2.png",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/forecast_request_path1.png",
     "index.md",
@@ -182,7 +183,6 @@
     "Tutorials/Fetching your own Forecast (IPython)/4. Optional - Taking things a step further/index.md",
     "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/index.md",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/index.md",
-    "Tutorials/Fetching your own Forecast (IPython)/index.md",
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/imports_unresolved.png",
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/imports_resolved.png",
     "Tutorials/Fetching your own Forecast (IPython)/5. Appendix",
@@ -194,7 +194,6 @@
     "Tutorials/Fetching your own Forecast (IPython)/with an interactive Python Notebook",
     "Tutorials/Fetching your own Forecast (IPython)",
     "Tutorials",
-    "Programming/Untitled",
     "References/Arfken - Mathematical Methods for Physicsts/Contents.canvas"
   ]
 }
