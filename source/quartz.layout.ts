@@ -22,7 +22,8 @@ export const sharedPageComponents: SharedLayout = {
   ],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/quantumrook/",
+      "quantumrook's Github": "https://github.com/quantumrook/",
+      "Website's Github": "https://github.com/quantumrook/quantumrook.github.io",
     },
   }),
 }
