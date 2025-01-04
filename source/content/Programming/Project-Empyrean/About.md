@@ -2,6 +2,7 @@
 title: About Project Empyrean
 created: 02, Jan, 2025
 modified:
+  - 04, Jan, 2025
   - 03, Jan, 2025
   - 02, Jan, 2025
 ---
@@ -11,6 +12,7 @@ The goal of this project was to hook up to the [National Weather Service API](ht
 
 # Versions
 
+Link to the repo: https://github.com/quantumrook/Project-Empyrean
 ## v0.1
 
 This all started off in an IPython notebook file, whose contents will be uploaded in the near future. The main personal goal was to hook up to the API and successfully download the information, as I had never attempted this before.

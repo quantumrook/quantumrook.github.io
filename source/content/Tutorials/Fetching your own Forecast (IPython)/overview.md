@@ -2,6 +2,7 @@
 title: Overview
 created: 03, Jan, 2025
 modified:
+  - 04, Jan, 2025
   - 03, Jan, 2025
 ---
 ## Summary
@@ -167,3 +168,7 @@ And here's the Markdown Table:
 | 21:00 | 46, 40 | 53 | Chance Rain Showers |
 | 22:00 | 46, 41 | 28 | Chance Rain Showers |
 | 23:00 | 46, 41 | 32 | Chance Rain Showers |
+
+Let's get started!
+
+[[Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/index|1. Getting Set Up]]
