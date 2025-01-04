@@ -2,6 +2,7 @@
 title: Table of Contents
 created: 03, Jan, 2025
 modified:
+  - 04, Jan, 2025
   - 03, Jan, 2025
 ---
 
@@ -18,6 +19,7 @@ Each step is broken down by logical dependency: e.g., you need an editor before 
 	4. [[3. Building a Points Request|Building a Points Request]]
 	5. [[4. Building the Forecast Request|Building the Forecast Request]]
 3. Converting and Displaying the Data
+	0. [[0. Just getting it done|Just getting it done]]
 	1. [[1. Making the dataclass|Making the ForecastData dataclass]]
 	2. [[2. Adding Helper functions|Adding Helper functions (for conversion)]]
 	3. [[3. Formatting the output|Formatting the output]]

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Project-Empyrean/About.md",
+                "file": "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Project-Empyrean/About.md",
+                "file": "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Project-Empyrean/About.md",
+                "file": "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Project-Empyrean/About.md"
+                "file": "Tutorials/Fetching your own Forecast (IPython)/table of contents.md"
               }
             }
           }
@@ -150,6 +150,13 @@
   "active": "1c19ee286f814bb3",
   "lastOpenFiles": [
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/4. Building the Forecast Request.md",
+    "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
+    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/0. Just getting it done.md",
+    "Tutorials/Fetching your own Forecast (IPython)/quick start.md",
+    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/final_notebook.png",
+    "{0BE3158B-CF98-4CC1-AFD2-8042AE9EB980}.png",
+    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the dataclass.md",
+    "Programming/Project-Empyrean/About.md",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/3. Building a Points Request.md",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/2. Getting a result using your browser.md",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/1. The Types of Requests.md",
@@ -160,11 +167,9 @@
     "Tutorials/Fetching your own Forecast (IPython)/overview.md",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/forecast_request_path2.png",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/forecast_request_path1.png",
-    "Programming/Project-Empyrean/About.md",
     "index.md",
     "QuantumRook_smaller_Banner.png",
     "QuantumRook_Banner.png",
-    "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/weather-gov-location.png",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/weather-gov-forecast.png",
     "References/Arfken - Mathematical Methods for Physicsts/Vectors.md",
@@ -178,12 +183,8 @@
     "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/index.md",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/index.md",
     "Tutorials/Fetching your own Forecast (IPython)/index.md",
-    "Tutorials/index.md",
-    "References/Arfken - Mathematical Methods for Physicsts/3.1 Review of Basic Properties.md",
-    "Programming/index.md",
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/imports_unresolved.png",
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/imports_resolved.png",
-    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/python_extension.png",
     "Tutorials/Fetching your own Forecast (IPython)/5. Appendix",
     "Tutorials/Fetching your own Forecast (IPython)/4. Optional - Taking things a step further",
     "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data",
