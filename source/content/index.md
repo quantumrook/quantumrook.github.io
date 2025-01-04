@@ -4,6 +4,7 @@ created: 02, Jan, 2025
 modified:
   - 03, Jan, 2025
   - 02, Jan, 2025
+description: A collection of thoughts from an undergraduate physics student interested in General Relativity, Quantum Mechanics, and Programming.
 ---
 A collection of thoughts from an undergraduate physics student interested in General Relativity, Quantum Mechanics, and Programming.
 
