@@ -6,7 +6,11 @@ modified:
   - 02, Jan, 2025
 description: A collection of thoughts from an undergraduate physics student interested in General Relativity, Quantum Mechanics, and Programming.
 ---
+![[QuantumRook_smaller_Banner.png]]
+
 A collection of thoughts from an undergraduate physics student interested in General Relativity, Quantum Mechanics, and Programming.
+
+---
 
 # Layout
 
