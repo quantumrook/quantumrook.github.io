@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the DailyForecast class/0. Considering A Object-Oriented Approach.md",
+                "file": "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the DailyForecast class/1. Approaches 1 & 2 (Positional and Keyword Arguments).md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the DailyForecast class/0. Considering A Object-Oriented Approach.md",
+                "file": "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the DailyForecast class/1. Approaches 1 & 2 (Positional and Keyword Arguments).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the DailyForecast class/0. Considering A Object-Oriented Approach.md",
+                "file": "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the DailyForecast class/1. Approaches 1 & 2 (Positional and Keyword Arguments).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the DailyForecast class/0. Considering A Object-Oriented Approach.md"
+                "file": "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the DailyForecast class/1. Approaches 1 & 2 (Positional and Keyword Arguments).md"
               }
             }
           }
@@ -147,12 +147,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b77831b90dd9f87b",
+  "active": "1c19ee286f814bb3",
   "lastOpenFiles": [
-    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the DailyForecast class/1. Approaches 1 & 2 (Positional and Keyword Arguments).md",
-    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/0. Just getting it done.md",
-    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the DailyForecast class/2. Approach 3 (Passing in the dictionaries of data).md",
     "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the DailyForecast class/0. Considering A Object-Oriented Approach.md",
+    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the DailyForecast class/1. Approaches 1 & 2 (Positional and Keyword Arguments).md",
+    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the DailyForecast class/2. Approach 3 (Passing in the dictionaries of data).md",
+    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/0. Just getting it done.md",
     "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the DailyForecast class",
     "{ECCB62F3-F35B-433A-BD4D-1EEAC9E69139}.png",
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/4. (Optional) Github.md",
