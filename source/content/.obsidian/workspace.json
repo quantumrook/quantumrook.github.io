@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
+                "file": "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/4. (Optional) Github.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
+                "file": "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/4. (Optional) Github.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
+                "file": "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/4. (Optional) Github.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/table of contents.md"
+                "file": "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/4. (Optional) Github.md"
               }
             }
           }
@@ -149,30 +149,35 @@
   },
   "active": "1c19ee286f814bb3",
   "lastOpenFiles": [
+    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/3. Building a Points Request.md",
+    "{77E8C525-6154-4605-86BD-AB37C5C2A02D}.png",
+    "{3CD8F9CA-ADD0-403D-B7AF-884DAEF15C1C}.png",
+    "{305571DE-94FF-49BD-9A39-CB97A742C0D1}.png",
+    "{45FE24C2-8570-45FE-8FE2-9133F51A0259}.png",
+    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/4. (Optional) Github.md",
+    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/2. Getting a result using your browser.md",
+    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/python_extension.png",
+    "{70C22DAD-E757-4826-9DAE-690CAE3C2163}.png",
+    "{9386A98F-1A9E-44D7-8383-169436D6E2C3}.png",
+    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/0. Step by Step.md",
+    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/index.md",
+    "Tutorials/Fetching your own Forecast (IPython)/index.md",
     "Tutorials/Fetching your own Forecast (IPython)/quick start.md",
     "Tutorials/Fetching your own Forecast (IPython)/overview.md",
+    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/4. Building the Forecast Request.md",
+    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/3. Required Libraries.md",
+    "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
     "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/0. Just getting it done.md",
     "Tutorials/Fetching your own Forecast (IPython)/Tutorial_Basic.ipynb",
-    "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
-    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/4. Building the Forecast Request.md",
     "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/final_notebook.png",
     "{0BE3158B-CF98-4CC1-AFD2-8042AE9EB980}.png",
     "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the dataclass.md",
     "Programming/Project-Empyrean/About.md",
-    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/3. Building a Points Request.md",
-    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/2. Getting a result using your browser.md",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/1. The Types of Requests.md",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/0. What is an API.md",
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/1. Python.md",
-    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/0. Step by Step.md",
-    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/index.md",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/forecast_request_path2.png",
-    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/forecast_request_path1.png",
     "index.md",
-    "QuantumRook_smaller_Banner.png",
-    "QuantumRook_Banner.png",
-    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/weather-gov-location.png",
-    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/weather-gov-forecast.png",
     "References/Arfken - Mathematical Methods for Physicsts/Vectors.md",
     "References/Arfken - Mathematical Methods for Physicsts/index.md",
     "References/Taylor - Classical Mechanics/index.md",
@@ -180,11 +185,6 @@
     "References/Bibliography.md",
     "References/index.md",
     "Tutorials/Fetching your own Forecast (IPython)/5. Appendix/index.md",
-    "Tutorials/Fetching your own Forecast (IPython)/4. Optional - Taking things a step further/index.md",
-    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/index.md",
-    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/index.md",
-    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/imports_unresolved.png",
-    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/imports_resolved.png",
     "Tutorials/Fetching your own Forecast (IPython)/5. Appendix",
     "Tutorials/Fetching your own Forecast (IPython)/4. Optional - Taking things a step further",
     "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data",
