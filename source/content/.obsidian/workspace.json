@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the dataclass.md",
+                "file": "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the DailyForecast class/0. Considering A Object-Oriented Approach.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the dataclass.md",
+                "file": "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the DailyForecast class/0. Considering A Object-Oriented Approach.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the dataclass.md",
+                "file": "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the DailyForecast class/0. Considering A Object-Oriented Approach.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the dataclass.md"
+                "file": "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the DailyForecast class/0. Considering A Object-Oriented Approach.md"
               }
             }
           }
@@ -147,8 +147,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1c19ee286f814bb3",
+  "active": "b77831b90dd9f87b",
   "lastOpenFiles": [
+    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the DailyForecast class/1. Approaches 1 & 2 (Positional and Keyword Arguments).md",
+    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/0. Just getting it done.md",
+    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the DailyForecast class/2. Approach 3 (Passing in the dictionaries of data).md",
+    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the DailyForecast class/0. Considering A Object-Oriented Approach.md",
+    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the DailyForecast class",
     "{ECCB62F3-F35B-433A-BD4D-1EEAC9E69139}.png",
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/4. (Optional) Github.md",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/3. Building a Points Request.md",
@@ -168,16 +173,13 @@
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/4. Building the Forecast Request.md",
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/3. Required Libraries.md",
     "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
-    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/0. Just getting it done.md",
     "Tutorials/Fetching your own Forecast (IPython)/Tutorial_Basic.ipynb",
     "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/final_notebook.png",
     "{0BE3158B-CF98-4CC1-AFD2-8042AE9EB980}.png",
-    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the dataclass.md",
     "Programming/Project-Empyrean/About.md",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/1. The Types of Requests.md",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/0. What is an API.md",
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/1. Python.md",
-    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/forecast_request_path2.png",
     "index.md",
     "References/Arfken - Mathematical Methods for Physicsts/Vectors.md",
     "References/Arfken - Mathematical Methods for Physicsts/index.md",
@@ -185,7 +187,6 @@
     "References/Taylor - Classical Mechanics/Notes/index.md",
     "References/Bibliography.md",
     "References/index.md",
-    "Tutorials/Fetching your own Forecast (IPython)/5. Appendix/index.md",
     "Tutorials/Fetching your own Forecast (IPython)/5. Appendix",
     "Tutorials/Fetching your own Forecast (IPython)/4. Optional - Taking things a step further",
     "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data",
@@ -194,7 +195,6 @@
     "Tutorials/Fetching your own Forecast (IPython)/Forecaster.ipynb",
     "Tutorials/Fetching your own Forecast (IPython)/with an interactive Python Notebook",
     "Tutorials/Fetching your own Forecast (IPython)",
-    "Tutorials",
     "References/Arfken - Mathematical Methods for Physicsts/Contents.canvas"
   ]
 }
