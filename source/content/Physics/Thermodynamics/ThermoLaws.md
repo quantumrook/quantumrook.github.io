@@ -1,5 +1,5 @@
 ---
-title: Thermodynamic Laws
+title: Laws
 created: 5, Nov, 2021
 modified:
   - 06, Jan, 2025
@@ -48,13 +48,15 @@ We can quantify the macroscopic state of a system using [Entropy](/physics/Therm
 Entropy characterizes the direction of natural processes; E.g., heat cannot (naturally) transfer from a colder body to a hotter body.
 
 If the system is not isolated and undergoes a quasistatic infinitesimal process in which it absorbs heat $\newcommand\dbar{đ}\dbar Q$, then:
+
 $$\newcommand\dbar{đ}dS=\frac{\dbar Q}{T} \Leftrightarrow TdS=\dbar Q$$
 
 ## The Third
 
 The limiting property of entropy:
 
-> As the temperature of a system approaches absolute zero, all processes cease and the entropy of the system approaches a minimum value.  $$T\rightarrow 0_+,\qquad S\rightarrow S_0 = 0$$
+> As the temperature of a system approaches absolute zero, all processes cease and the entropy of the system approaches a minimum value.  
+> $$T\rightarrow 0_+,\qquad S\rightarrow S_0 = 0$$
 
 ---
 

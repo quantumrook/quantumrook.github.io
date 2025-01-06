@@ -1,5 +1,5 @@
 ---
-title: Thermodynamic Functions
+title: Functions
 created: 5, Nov, 2021
 modified:
   - 06, Jan, 2025
@@ -27,7 +27,8 @@ $$
 
 $$H(S,p)\equiv E+pV$$
 
-$$\newcommand\wrap[2]{\left(#1\right)_{#2}}
+$$
+\newcommand\wrap[2]{\left(#1\right)_{#2}}
 \newcommand\pder[2]{\frac{\partial #1}{\partial #2}}
 \begin{aligned}
 TdS &= dE + pdV \\
@@ -41,19 +42,23 @@ dH &= \wrap{\pder{H}{S}}{p} dS + \wrap{\pder{H}{p}}{S} dp \\
 \\
 \wrap{\pder{H}{S}}{p} &= T \\
 \wrap{\pder{H}{p}}{S} &= V
-\end{aligned}$$
+\end{aligned}
+$$
 
 This gives us the following [Maxwell Relation](/physics/Thermodynamics/Maxwell.md):
 
-$$\newcommand\wrap[2]{\left(#1\right)_{#2}}
+$$
+\newcommand\wrap[2]{\left(#1\right)_{#2}}
 \newcommand\pder[2]{\frac{\partial #1}{\partial #2}}
-\wrap{\pder{T}{p}}{S} = \wrap{\pder{V}{S}}{p}$$
+\wrap{\pder{T}{p}}{S} = \wrap{\pder{V}{S}}{p}
+$$
 
 ## Helmholtz
 
 $$F(T,V)\equiv E - TS$$
 
-$$\newcommand\wrap[2]{\left(#1\right)_{#2}}
+$$
+\newcommand\wrap[2]{\left(#1\right)_{#2}}
 \newcommand\pder[2]{\frac{\partial #1}{\partial #2}}
 \begin{aligned}
 TdS &= dE + pdV \\
@@ -66,13 +71,16 @@ dF &= \wrap{\pder{F}{T}}{V} dT + \wrap{\pder{F}{V}}{T} dV \\
 \\
 \wrap{\pder{F}{T}}{V} &= -S \\
 \wrap{\pder{F}{V}}{T} &= -p
-\end{aligned}$$
+\end{aligned}
+$$
 
 This gives us the following [Maxwell Relation](/physics/Thermodynamics/Maxwell.md):
 
-$$\newcommand\wrap[2]{\left(#1\right)_{#2}}
+$$
+\newcommand\wrap[2]{\left(#1\right)_{#2}}
 \newcommand\pder[2]{\frac{\partial #1}{\partial #2}}
-\wrap{\pder{S}{V}}{T} = \wrap{\pder{p}{T}}{V}$$
+\wrap{\pder{S}{V}}{T} = \wrap{\pder{p}{T}}{V}
+$$
 
 ## Gibbs
 
@@ -80,7 +88,8 @@ $$G(T,p)\equiv E - TS + pV$$
 
 Alternatively, we could also define $G$ by either $G\equiv F +pV$ or $G\equiv H-TS$.
 
-$$\newcommand\wrap[2]{\left(#1\right)_{#2}}
+$$
+\newcommand\wrap[2]{\left(#1\right)_{#2}}
 \newcommand\pder[2]{\frac{\partial #1}{\partial #2}}
 \begin{aligned}
 TdS &= dE + pdV \\
@@ -93,13 +102,16 @@ dG &= \wrap{\pder{G}{T}}{p} dT + \wrap{\pder{G}{p}}{T} dp \\
 \\
 \wrap{\pder{G}{T}}{p} &= -S \\
 \wrap{\pder{G}{p}}{T} &= V
-\end{aligned}$$
+\end{aligned}
+$$
 
 This gives us the following [Maxwell Relation](/physics/Thermodynamics/Maxwell.md):
 
-$$\newcommand\wrap[2]{\left(#1\right)_{#2}}
+$$
+\newcommand\wrap[2]{\left(#1\right)_{#2}}
 \newcommand\pder[2]{\frac{\partial #1}{\partial #2}}
--\wrap{\pder{S}{p}}{T} = \wrap{\pder{V}{T}}{p}$$
+-\wrap{\pder{S}{p}}{T} = \wrap{\pder{V}{T}}{p}
+$$
 
 ---
 

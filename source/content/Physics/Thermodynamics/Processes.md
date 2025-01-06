@@ -1,5 +1,5 @@
 ---
-title: Thermodynamic Processes
+title: Processes
 created: 5, Nov, 2021
 modified:
   - 06, Jan, 2025

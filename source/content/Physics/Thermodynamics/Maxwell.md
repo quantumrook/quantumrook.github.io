@@ -1,5 +1,5 @@
 ---
-title: Maxwell Relations of Thermodynamic Functions
+title: Maxwell Relations
 created: 5, Nov, 2021
 modified:
   - 06, Jan, 2025
