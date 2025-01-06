@@ -13,12 +13,15 @@ $$E(S,V)$$
 
 Internal energy $E$ is defined in terms of state variables $S$ and $V$, which leads to the standard parameterization of:
 
-$$\newcommand\wrap[2]{\left(#1\right)_{#2}}
-\newcommand\pder[2]{\frac{\partial #1}{\partial #2}}\begin{aligned}
+$$
+\newcommand\wrap[2]{\left(#1\right)_{#2}}
+\newcommand\pder[2]{\frac{\partial #1}{\partial #2}}
+\begin{aligned}
 dE(S,V) &= \wrap{\pder{E}{S}}{V} dS + \wrap{\pder{E}{V}}{S} dV\\
 \\
 dE &= T dS - p dV
-\end{aligned}$$
+\end{aligned}
+$$
 
 ## Enthalpy
 
