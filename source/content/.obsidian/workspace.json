@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Physics/Thermodynamics/ThermoLaws.md",
+                "file": "0. Thoughts/overhaul.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physics/Thermodynamics/ThermoLaws.md",
+                "file": "0. Thoughts/overhaul.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physics/Thermodynamics/ThermoLaws.md",
+                "file": "0. Thoughts/overhaul.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physics/Thermodynamics/ThermoLaws.md"
+                "file": "0. Thoughts/overhaul.md"
               }
             }
           }
@@ -149,13 +149,18 @@
   },
   "active": "8a73f95144a57cd6",
   "lastOpenFiles": [
+    "{E3917337-82EF-4DA3-BCDE-029447895249} 1.png",
+    "{E3917337-82EF-4DA3-BCDE-029447895249}.png",
+    "Math/index.md",
+    "0. Thoughts/overhaul.md",
+    "Physics/Thermodynamics/Functions.md",
+    "0. Thoughts",
+    "Physics/Thermodynamics/ThermoLaws.md",
     "Physics/Thermodynamics/Systems.md",
     "Physics/Thermodynamics/Processes.md",
     "Physics/Thermodynamics/Maxwell.md",
     "Physics/Thermodynamics/IdealGas.md",
-    "Physics/Thermodynamics/Functions.md",
     "Physics/Thermodynamics/VanderWaalsGas.md",
-    "Physics/Thermodynamics/ThermoLaws.md",
     "Physics/Drag.md",
     "Physics/Thermodynamics/ThermoNotes.pdf",
     "Physics/Thermodynamics/StatMechNotes.pdf",
@@ -186,14 +191,10 @@
     "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
     "Tutorials/Fetching your own Forecast (IPython)/Tutorial_Basic.ipynb",
     "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/final_notebook.png",
-    "{0BE3158B-CF98-4CC1-AFD2-8042AE9EB980}.png",
-    "Programming/Project-Empyrean/About.md",
-    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/1. The Types of Requests.md",
     "Tutorials/Fetching your own Forecast (IPython)/5. Appendix",
     "Tutorials/Fetching your own Forecast (IPython)/4. Optional - Taking things a step further",
     "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data",
     "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API",
-    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up",
     "References/Arfken - Mathematical Methods for Physicsts/Contents.canvas"
   ]
 }
