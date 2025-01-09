@@ -18,8 +18,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "e5edc87e1f64fb3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. Thoughts/v0.1.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0. Thoughts/overhaul.md",
+                "file": "0. Thoughts/v0.1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. Thoughts/overhaul.md",
+                "file": "0. Thoughts/v0.1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0. Thoughts/overhaul.md"
+                "file": "0. Thoughts/v0.1.md"
               }
             }
           }
@@ -147,12 +160,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8a73f95144a57cd6",
+  "active": "e5edc87e1f64fb3b",
   "lastOpenFiles": [
+    "0. Thoughts/overhaul.md",
+    "0. Thoughts/v0.1.md",
     "{E3917337-82EF-4DA3-BCDE-029447895249} 1.png",
     "{E3917337-82EF-4DA3-BCDE-029447895249}.png",
     "Math/index.md",
-    "0. Thoughts/overhaul.md",
     "Physics/Thermodynamics/Functions.md",
     "0. Thoughts",
     "Physics/Thermodynamics/ThermoLaws.md",
@@ -190,7 +204,6 @@
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/3. Required Libraries.md",
     "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
     "Tutorials/Fetching your own Forecast (IPython)/Tutorial_Basic.ipynb",
-    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/final_notebook.png",
     "Tutorials/Fetching your own Forecast (IPython)/5. Appendix",
     "Tutorials/Fetching your own Forecast (IPython)/4. Optional - Taking things a step further",
     "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data",
