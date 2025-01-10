@@ -42,9 +42,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "effe26b0e619b0ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. Thoughts/v0.03.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0. Thoughts/v0.02.md",
+                "file": "0. Thoughts/v0.03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. Thoughts/v0.02.md",
+                "file": "0. Thoughts/v0.03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0. Thoughts/v0.02.md"
+                "file": "0. Thoughts/v0.03.md"
               }
             }
           }
@@ -172,10 +184,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "53f3f3f5ddbba4a9",
+  "active": "effe26b0e619b0ea",
   "lastOpenFiles": [
-    "0. Thoughts/v0.01.md",
+    "Fetching-your-own-Forecast-(IPython)/index.md",
+    "0. Thoughts/v0.03.md",
+    "Fetching-your-own-Forecast-(IPython)",
+    "References/Bibliography.md",
+    "index.md",
+    "References/index.md",
     "0. Thoughts/v0.02.md",
+    "0. Thoughts/v0.01.md",
     "0. Thoughts/overhaul.md",
     "{E3917337-82EF-4DA3-BCDE-029447895249} 1.png",
     "{E3917337-82EF-4DA3-BCDE-029447895249}.png",
@@ -210,16 +228,10 @@
     "{9386A98F-1A9E-44D7-8383-169436D6E2C3}.png",
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/0. Step by Step.md",
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/index.md",
-    "Tutorials/Fetching your own Forecast (IPython)/index.md",
-    "Tutorials/Fetching your own Forecast (IPython)/quick start.md",
-    "Tutorials/Fetching your own Forecast (IPython)/overview.md",
-    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API/4. Building the Forecast Request.md",
-    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/3. Required Libraries.md",
     "Tutorials/Fetching your own Forecast (IPython)/Tutorial_Basic.ipynb",
     "Tutorials/Fetching your own Forecast (IPython)/5. Appendix",
     "Tutorials/Fetching your own Forecast (IPython)/4. Optional - Taking things a step further",
     "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data",
-    "Tutorials/Fetching your own Forecast (IPython)/2. Understanding the API",
     "References/Arfken - Mathematical Methods for Physicsts/Contents.canvas"
   ]
 }
