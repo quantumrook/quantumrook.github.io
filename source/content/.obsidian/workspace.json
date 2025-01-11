@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f7ffbb0146e0d60c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. Thoughts/v0.04.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0. Thoughts/v0.03.md",
+                "file": "0. Thoughts/v0.04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. Thoughts/v0.03.md",
+                "file": "0. Thoughts/v0.04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0. Thoughts/v0.03.md"
+                "file": "0. Thoughts/v0.04.md"
               }
             }
           }
@@ -184,16 +196,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "effe26b0e619b0ea",
+  "active": "f7ffbb0146e0d60c",
   "lastOpenFiles": [
-    "Fetching-your-own-Forecast-(IPython)/index.md",
+    "0. Thoughts/v0.01.md",
+    "0. Thoughts/v0.02.md",
     "0. Thoughts/v0.03.md",
+    "0. Thoughts/v0.04.md",
+    "Fetching-your-own-Forecast-(IPython)/index.md",
     "Fetching-your-own-Forecast-(IPython)",
     "References/Bibliography.md",
     "index.md",
     "References/index.md",
-    "0. Thoughts/v0.02.md",
-    "0. Thoughts/v0.01.md",
     "0. Thoughts/overhaul.md",
     "{E3917337-82EF-4DA3-BCDE-029447895249} 1.png",
     "{E3917337-82EF-4DA3-BCDE-029447895249}.png",
@@ -227,7 +240,6 @@
     "{70C22DAD-E757-4826-9DAE-690CAE3C2163}.png",
     "{9386A98F-1A9E-44D7-8383-169436D6E2C3}.png",
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/0. Step by Step.md",
-    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/index.md",
     "Tutorials/Fetching your own Forecast (IPython)/Tutorial_Basic.ipynb",
     "Tutorials/Fetching your own Forecast (IPython)/5. Appendix",
     "Tutorials/Fetching your own Forecast (IPython)/4. Optional - Taking things a step further",
