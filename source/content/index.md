@@ -2,6 +2,7 @@
 title: Home
 created: 02, Jan, 2025
 modified:
+  - 22, Jan, 2025
   - 03, Jan, 2025
   - 02, Jan, 2025
 description: A collection of thoughts from an undergraduate physics student interested in General Relativity, Quantum Mechanics, and Programming.
@@ -22,6 +23,9 @@ The [[Math/index|Math]] and [[Physics/index|Physics]] folders contain my version
 
 The [[Programming/index|Programming]] folder contains projects that I am currently working on, or have worked on in the past. Content ranges from my undergraduate thesis ([[Programming/Project-Cartographer/About|Project Cartographer]]) to a python & tkinter based weather forecast app ([[Programming/Project-Empyrean/About|Project Empyrean]]).
 
+### Project BrickInventory
+
+![[Programming/Project-BrickInventory/About#Summary|About]]
 ### Project Cartographer
 
 ![[Programming/Project-Cartographer/About#Summary]]
