@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "1c809d92d3a9004f",
+        "id": "676f21c996750ae3",
         "type": "tabs",
         "children": [
           {
-            "id": "51523eacf66f9488",
+            "id": "017dee827e5b4bc5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. Thoughts/v0.04.md",
+                "file": "Programming/Project-BrickInventory/Thoughts/22Jan2025.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0. Thoughts/v0.04.md",
+                "file": "Programming/Project-BrickInventory/Thoughts/22Jan2025.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. Thoughts/v0.04.md",
+                "file": "Programming/Project-BrickInventory/Thoughts/22Jan2025.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0. Thoughts/v0.04.md"
+                "file": "Programming/Project-BrickInventory/Thoughts/22Jan2025.md"
               }
             }
           }
@@ -147,42 +147,45 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "51523eacf66f9488",
+  "active": "017dee827e5b4bc5",
   "lastOpenFiles": [
-    "0. Thoughts/v0.03.md",
+    "Programming/Project-BrickInventory/About.md",
+    "Programming/Project-BrickInventory/Thoughts/22Jan2025.md",
+    "Programming/Project-BrickInventory/Thoughts",
+    "Programming/Project-Empyrean/About.md",
+    "Programming/Project-Cartographer/About.md",
+    "Programming/Project-BrickInventory",
+    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/0. Just getting it done.md",
+    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/2. Adding Helper functions.md",
+    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/3. Formatting the output.md",
+    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/final_notebook.png",
+    "Tutorials/Fetching your own Forecast (IPython)/4. Optional - Taking things a step further/1. Creating a temperature plot.md",
+    "Tutorials/Fetching your own Forecast (IPython)/4. Optional - Taking things a step further/2. Saving the output into a file.md",
+    "Tutorials/Fetching your own Forecast (IPython)/5. Appendix/Using a python file instead.md",
+    "Tutorials/Fetching your own Forecast (IPython)/5. Appendix/index.md",
     "0. Thoughts/v0.04.md",
+    "Physics/Drag.md",
+    "0. Thoughts/v0.03.md",
     "index.md",
     "Tutorials/index.md",
     "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
     "Tutorials/Fetching your own Forecast (IPython)/quick start.md",
     "Tutorials/Fetching your own Forecast (IPython)/overview.md",
     "Tutorials/Fetching your own Forecast (IPython)/index.md",
-    "Physics/Drag.md",
     "References/Taylor - Classical Mechanics/Source/2.2 Linear Air Resistance.md",
-    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/0. Just getting it done.md",
     "0. Thoughts/v0.01.md",
     "0. Thoughts/v0.02.md",
     "Fetching-your-own-Forecast-(IPython)/index.md",
     "Fetching-your-own-Forecast-(IPython)",
     "References/Bibliography.md",
     "References/index.md",
-    "0. Thoughts/overhaul.md",
     "{E3917337-82EF-4DA3-BCDE-029447895249} 1.png",
     "{E3917337-82EF-4DA3-BCDE-029447895249}.png",
-    "Math/index.md",
-    "Physics/Thermodynamics/Functions.md",
     "0. Thoughts",
-    "Physics/Thermodynamics/ThermoLaws.md",
-    "Physics/Thermodynamics/Systems.md",
-    "Physics/Thermodynamics/Processes.md",
-    "Physics/Thermodynamics/Maxwell.md",
-    "Physics/Thermodynamics/IdealGas.md",
-    "Physics/Thermodynamics/VanderWaalsGas.md",
     "Physics/Thermodynamics/ThermoNotes.pdf",
     "Physics/Thermodynamics/StatMechNotes.pdf",
     "{3CD8F9CA-ADD0-403D-B7AF-884DAEF15C1C}.png",
     "Physics/Thermodynamics",
-    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the DailyForecast class/1. Approaches 1 & 2 (Positional and Keyword Arguments).md",
     "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data/1. Making the DailyForecast class",
     "{ECCB62F3-F35B-433A-BD4D-1EEAC9E69139}.png",
     "{77E8C525-6154-4605-86BD-AB37C5C2A02D}.png",
@@ -190,11 +193,8 @@
     "{45FE24C2-8570-45FE-8FE2-9133F51A0259}.png",
     "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/python_extension.png",
     "{70C22DAD-E757-4826-9DAE-690CAE3C2163}.png",
-    "{9386A98F-1A9E-44D7-8383-169436D6E2C3}.png",
     "Tutorials/Fetching your own Forecast (IPython)/Tutorial_Basic.ipynb",
     "Tutorials/Fetching your own Forecast (IPython)/5. Appendix",
-    "Tutorials/Fetching your own Forecast (IPython)/4. Optional - Taking things a step further",
-    "Tutorials/Fetching your own Forecast (IPython)/3. Converting and Displaying Data",
     "References/Arfken - Mathematical Methods for Physicsts/Contents.canvas"
   ]
 }
