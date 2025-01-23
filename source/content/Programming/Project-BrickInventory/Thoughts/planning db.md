@@ -1,7 +1,8 @@
 ---
-title: 22Jan2025
+title: "Planning it out: the DB Schema"
 created: 22, Jan, 2025
 modified:
+  - 23, Jan, 2025
   - 22, Jan, 2025
 ---
 
@@ -125,3 +126,53 @@ The easy part is that I know I need at least three tables. The question which I 
 E.g.: does `color` get its own table? or do I just store strings directly?
 
 ..
+
+Oh right! I need to have a space for recording current inventory.
+
+..
+
+Okay, relisting the table properties I have so far:
+
+> Blocks:
+
+| PartNumber | Footprint | Headprint | Height | Color    | Graphic | Shape    | InventoryCount |
+| ---------- | --------- | --------- | ------ | -------- | ------- | -------- | -------------- |
+| int        | string    | string    | int    | ColorKey | bool    | ShapeKey | int            |
+
+> Sets:
+
+| SetNumber | Setting | IsSubset | SubsetOf | InventoryCount |
+| --------- | ------- | -------- | -------- | -------------- |
+| int       | string  | bool     | int      | int            |
+
+> PartsInSet:
+
+| SetNumber | PartNumber | Quantity |
+| --------- | ---------- | -------- |
+| int       | int        | int      |
+
+> Special:
+
+| PartNumber | IsHandheld | IsWearable | Description |
+| ---------- | ---------- | ---------- | ----------- |
+| int        | bool       | bool       | string      |
+
+Thinking about it, I can really just add the three columns of the `Special` table to `Blocks`. 
+
+## Wrap up
+
+If I remember my terminology correctly, the following is the database in "second normal form":
+
+![[Programming/Project-BrickInventory/SchemaV01_SecondNormalForm.png]]
+
+Technically, Transparent depends on Color, so to achieve "third normal form", we'd make: 
+
+> Colors
+
+| ColorKey | Name   | IsTransparent |
+| -------- | ------ | ------------- |
+| int      | string | bool          |
+
+Although, that being said... its not like only specific colors can be transparent, so you could argue that the transparency doesn't depend on color and call the above implementation "third normal form". In a growing and changing system, I would opt to make the additional table.
+
+In the actual implementation stage, I might opt to split `footprint` and `headprint` into their subjective components: `width` and `length`. I'm not sure, but I feel like I remember hearing something in one of my database classes about the string comparisons being more costly than simpler types, so an optimization would be to convert them to their integer counterparts.
