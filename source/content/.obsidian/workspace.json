@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "5b2f8150f15ef9ce",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "53bf93c00f7e0f27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/Project-BrickInventory/Thoughts/planning db.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "41e3450573002b6b",
         "type": "tabs",
         "children": [
@@ -31,7 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Project-BrickInventory/Thoughts/planning db.md",
+                "file": "Programming/Project-BrickInventory/Thoughts/planning architecture.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "1c641306220782cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "97c20f6808f0def8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/Project-BrickInventory/Thoughts/planning flow.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Project-BrickInventory/Thoughts/planning db.md",
+                "file": "Programming/Project-BrickInventory/Thoughts/planning architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Project-BrickInventory/Thoughts/planning db.md",
+                "file": "Programming/Project-BrickInventory/Thoughts/planning architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Project-BrickInventory/Thoughts/planning db.md"
+                "file": "Programming/Project-BrickInventory/Thoughts/planning architecture.md"
               }
             }
           }
@@ -167,11 +167,16 @@
   },
   "active": "ff50ed3879890ad8",
   "lastOpenFiles": [
+    "Programming/Project-BrickInventory/Thoughts/planning views.md",
+    "Programming/Project-BrickInventory/Thoughts/planning architecture.md",
+    "Programming/Project-BrickInventory/Thoughts/planning flow.md",
+    "Programming/Project-BrickInventory/Thoughts/planning db.md",
+    "Programming/Project-BrickInventory/OverviewView.png",
+    "Programming/Project-BrickInventory/SchemaV02_SecondNormalForm.png",
     "Programming/Project-BrickInventory/SchemaV01_SecondNormalForm.png",
     "index.md",
     "Programming/Project-BrickInventory/About.md",
     "Tutorials/index.md",
-    "Programming/Project-BrickInventory/Thoughts/planning db.md",
     "Programming/Project-BrickInventory/Thoughts",
     "Programming/Project-Empyrean/About.md",
     "Programming/Project-Cartographer/About.md",
@@ -194,9 +199,7 @@
     "References/Taylor - Classical Mechanics/Source/2.2 Linear Air Resistance.md",
     "0. Thoughts/v0.01.md",
     "0. Thoughts/v0.02.md",
-    "Fetching-your-own-Forecast-(IPython)/index.md",
     "Fetching-your-own-Forecast-(IPython)",
-    "References/Bibliography.md",
     "{E3917337-82EF-4DA3-BCDE-029447895249} 1.png",
     "{E3917337-82EF-4DA3-BCDE-029447895249}.png",
     "0. Thoughts",
@@ -208,9 +211,6 @@
     "{ECCB62F3-F35B-433A-BD4D-1EEAC9E69139}.png",
     "{77E8C525-6154-4605-86BD-AB37C5C2A02D}.png",
     "{305571DE-94FF-49BD-9A39-CB97A742C0D1}.png",
-    "{45FE24C2-8570-45FE-8FE2-9133F51A0259}.png",
-    "Tutorials/Fetching your own Forecast (IPython)/1. Getting Set Up/python_extension.png",
-    "{70C22DAD-E757-4826-9DAE-690CAE3C2163}.png",
     "Tutorials/Fetching your own Forecast (IPython)/Tutorial_Basic.ipynb",
     "Tutorials/Fetching your own Forecast (IPython)/5. Appendix",
     "References/Arfken - Mathematical Methods for Physicsts/Contents.canvas"

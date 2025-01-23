@@ -176,3 +176,13 @@ Technically, Transparent depends on Color, so to achieve "third normal form", we
 Although, that being said... its not like only specific colors can be transparent, so you could argue that the transparency doesn't depend on color and call the above implementation "third normal form". In a growing and changing system, I would opt to make the additional table.
 
 In the actual implementation stage, I might opt to split `footprint` and `headprint` into their subjective components: `width` and `length`. I'm not sure, but I feel like I remember hearing something in one of my database classes about the string comparisons being more costly than simpler types, so an optimization would be to convert them to their integer counterparts.
+
+## Planning the Flow: Update
+
+- Add tables for: `footprint`, `headprint`, `height`, `color`, and `shape`
+	- To populate dropdown menus
+- Add `Total` to `PartsInSet`
+- Add `Description` to `Sets`
+
+![[Programming/Project-BrickInventory/SchemaV02_SecondNormalForm.png]]
+
