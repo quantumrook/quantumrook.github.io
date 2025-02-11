@@ -87,7 +87,7 @@ Where I have mapped the positive $x$ direction to the *right side* of the ball (
 $$
 \begin{align*}
 P &= \frac{[\text{mass}]}{[\text{length}][\text{time}^2]} \\
-&= \frac{[\text{mass}]}{\text{length}^3}\cdot\frac{[\text{length}^2]}{[\text{time}^2]}
+&= \frac{[\text{mass}]}{[\text{length}^3]}\cdot\frac{[\text{length}^2]}{[\text{time}^2]}
 \end{align*}
 $$
 
