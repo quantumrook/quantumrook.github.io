@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "36805f4f71917084",
+        "id": "0c18a5a14edd1104",
         "type": "tabs",
         "children": [
           {
-            "id": "2772d4a73dcc20e6",
+            "id": "ca945e33e23d2417",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -139,15 +139,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2772d4a73dcc20e6",
+  "active": "ca945e33e23d2417",
   "lastOpenFiles": [
+    "Programming/Project-BrickInventory/Thoughts/index.md",
+    "Programming/Project-BrickInventory/index.md",
     "Programming/Project-BrickInventory/About.md",
+    "Physics/Thermodynamics/index.md",
+    "Physics/Thermodynamics/IdealGas.md",
+    "Physics/Thermodynamics/Functions.md",
+    "Physics/Project Snowfall/index.md",
     "Physics/Project Snowfall/Modeling Wind.md",
+    "Physics/index.md",
     "Programming/Project-BrickInventory/Thoughts/planning architecture.md",
     "Programming/Project-BrickInventory/Thoughts/planning views.md",
     "Programming/Project-BrickInventory/Thoughts/planning flow.md",
     "Programming/Project-BrickInventory/Thoughts/planning db.md",
-    "Physics/index.md",
     "Programming/Project-BrickInventory/OverviewView.png",
     "Programming/Project-BrickInventory/SchemaV02_SecondNormalForm.png",
     "Programming/Project-BrickInventory/SchemaV01_SecondNormalForm.png",
@@ -167,12 +173,6 @@
     "Tutorials/Fetching your own Forecast (IPython)/5. Appendix/index.md",
     "0. Thoughts/v0.04.md",
     "Physics/Drag.md",
-    "0. Thoughts/v0.03.md",
-    "Tutorials/Fetching your own Forecast (IPython)/table of contents.md",
-    "Tutorials/Fetching your own Forecast (IPython)/quick start.md",
-    "Tutorials/Fetching your own Forecast (IPython)/overview.md",
-    "Tutorials/Fetching your own Forecast (IPython)/index.md",
-    "References/Taylor - Classical Mechanics/Source/2.2 Linear Air Resistance.md",
     "Fetching-your-own-Forecast-(IPython)",
     "{E3917337-82EF-4DA3-BCDE-029447895249} 1.png",
     "{E3917337-82EF-4DA3-BCDE-029447895249}.png",
