@@ -1,7 +1,7 @@
 .trash/*
-/source/content/References/*/source
-source/content/.obsidian/workspace.json
-source/content/References/Arfken - Mathematical Methods for Physicsts/3.1 Review of Basic Properties.md
-source/content/References/Arfken - Mathematical Methods for Physicsts/Contents.canvas
-source/content/References/Arfken - Mathematical Methods for Physicsts/Vectors.md
+.obsidian/*
+source/content/References/Arfken - Mathematical Methods for Physicsts/*
+content/References/Arfken - Mathematical Methods for Physicsts/*
+source/content/References/Taylor - Classical Mechanics/*
+content/References/Taylor - Classical Mechanics/*
 *.json
