@@ -1,7 +1,8 @@
 ---
-title: "Planning it out: the Flow"
+title: "1. Planning it out: the Flow"
 created: 23, Jan, 2025
 modified:
+  - 11, Feb, 2025
   - 23, Jan, 2025
 ---
 >[!note] Stream of Consciousness

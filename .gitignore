@@ -1,7 +1,9 @@
 .trash/*
 .obsidian/*
+/source/content/.obsidian
 source/content/References/Arfken - Mathematical Methods for Physicsts/*
 content/References/Arfken - Mathematical Methods for Physicsts/*
 source/content/References/Taylor - Classical Mechanics/*
 content/References/Taylor - Classical Mechanics/*
 *.json
+

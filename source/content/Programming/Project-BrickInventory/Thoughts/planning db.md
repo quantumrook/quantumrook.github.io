@@ -1,7 +1,8 @@
 ---
-title: "Planning it out: the DB Schema"
+title: "0. Planning it out: the DB Schema"
 created: 22, Jan, 2025
 modified:
+  - 11, Feb, 2025
   - 23, Jan, 2025
   - 22, Jan, 2025
 ---

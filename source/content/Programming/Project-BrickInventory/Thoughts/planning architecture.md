@@ -1,7 +1,8 @@
 ---
-title: "Planning it out: the Architecture"
+title: "3. Planning it out: the Architecture"
 created: 23, Jan, 2025
 modified:
+  - 11, Feb, 2025
   - 23, Jan, 2025
 ---
 >[!note] Stream of Consciousness

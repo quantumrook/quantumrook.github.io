@@ -74,9 +74,7 @@ This maximum velocity for the object should also be a theoretical limit in the s
 
 ### Sense Making: A ball in a tube
 
-Consider a ball in a similarly sized tube with no friction. To the left side of the ball is a section continually being pressurized with a gas and to the right size of the ball is a vacuum.
-
-If we assume the ball and/or tube is lubricated in an idealized way such that friction between the two is negligible, then the only force on the ball is from the pressurized gas.
+Consider a ball in a similarly sized tube with no friction. To the left side of the ball is a section pressurized with a fluid and to the right size of the ball is a vacuum. If we assume the ball and/or tube is lubricated in an idealized way such that friction between the two is negligible, then the only force on the ball is from the pressurized fluid.
 
 Using the method where force is equivalent to pressure times surface area, we can crudely describe our "wind" as:
 
@@ -84,19 +82,13 @@ $$
 \textbf{f}_{wind} = P_{gas}\ A_{ball}\ \hat{x}
 $$
 
-Where I have mapped the positive $x$ direction to the *right side* of the ball (and the negative $x$ direction is to the left).
-
-In theory, if we are able to maintain the pressure (to the left of the ball) a constant as the ball accelerates in the $+x$ direction, we have the case where the ball's upper limit in velocity is described by the rate at which we can add the necessary additional gas to the the tube. In this limit, the pressure will begin to decrease, and given long enough time scales, the ball will reach a maximum velocity as $\textbf{f}_{wind}\rightarrow 0$.
-
-In other words, the magnitude of $\textbf{f}_{wind}$ must depend on the difference in velocity between the wind and the object.
-
-Recalling that the dimensions of pressure are
+Where I have mapped the positive $x$ direction to the *right side* of the ball (and the negative $x$ direction is to the left). Recalling that the dimensions of pressure are
 
 $$
-\begin{align}
+\begin{align*}
 P &= \frac{[\text{mass}]}{[\text{length}][\text{time}^2]} \\
 &= \frac{[\text{mass}]}{\text{length}^3}\cdot\frac{[\text{length}^2]}{[\text{time}^2]}
-\end{align}
+\end{align*}
 $$
 
 Which would lead to the ability to describe pressure as the density of the gas (or liquid) multiplied by the square of its velocity:
@@ -110,15 +102,17 @@ This leaves two possible vectors for the pressure to tend to zero:
 - the density decreases
 - the (relative) velocity of the medium decreases
 
->![note] Aside:
+>[!note] Aside:
 >
 >Now, I could default to a thermodynamic style of reasoning in that:
 >
 >"We assume the process introducing more fluid to the pipe is such that the density remains constant."
 >
->Which... feels like a cop-out. It is not unreasonable to imagine there is a method, albeit most likely very complicated, that introduces fluid into the pipe in a manner such that the density remains a constant: possibly involving values at various intervals that open/close based on the ball's location to ensure fluid is being added at the correct rate.
+>Which... feels like a cop-out. 
 >
->The other approach is probably less *cheaty* in that we look at the problem through the lens of an incompressible fluid, and then by definition, the density must be constant. But then, I would need to still address the issue of defending why the incompressible case applies to the compressible case.
+>It is not unreasonable to imagine there is a method, albeit likely complicated, that introduces fluid into the pipe in a manner such that the density remains a constant (possibly involving valves at various intervals that open/close based on the ball's location to ensure fluid is being added at the correct rate).
+>
+>The other approach is "less *cheaty*" by looking at the problem through the lens of an incompressible fluid. Then, by definition, the density must be constant. But I would still need to address the issue of defending why the incompressible case applies to the compressible case.
 
 Instead, I think the stronger (and more intuitive) approach is to use Conservation of Momentum. One of the derivations for pressure involves considering the momentum imparted by each particle against the cross-sectional surface area over a period of time:
 
@@ -138,34 +132,19 @@ $$
 \textbf{p}_{fluid} + \textbf{p}_{ball,i} = \textbf{p}_{ball,f}
 $$
 
-Now, a more accurate model would account for variable pressure as the fluid flow (in aggregate) remains constant and density varies, but given long enough time scales for the fluid to *even out*, we still approach a pressure of zero as the momentum imparted from the fluid in later and later collisions trends to zero: That is, once the ball has reached a velocity equal to the fluid flow, any subsequent fluid that might interact with the ball will be moving in parallel with the ball (their velocities being equal and the fluid can never *catch up* to the ball).
+> (The subscripts $i$ and $f$ denote *initial* and *final*).
 
----
-This actually requires us to briefly re-define the state variables of pressure as
+Now, a more accurate model would account for variable pressure as the fluid flow (in aggregate) remains constant and density varies, but given long enough time scales for the fluid to *even out*, we still approach a pressure of zero as the momentum imparted from the fluid in later and later collisions trends to zero: 
 
-$$
-P = \textbf{p}\cdot\frac{\textbf{v}}{V}
-$$
+>That is, once the ball has reached a velocity equal to the fluid flow, any subsequent fluid that might interact with the ball will be moving in parallel with the ball (their velocities being equal and the fluid can never *catch up* to the ball).
 
-such that pressure is the flux of the fluid's momentum through the volumetric flow density. 
+All of this is to finally state:
 
->Quick sense making:
->
->$\textbf{v}/V$ respects Bernoulli's principle (in the form of $A_1v_1=A_2v_2$): 
+>The magnitude of $\textbf{f}_{wind}$ must depend on the difference in velocity between the wind and the object, and given long enough time scales, the ball will reach a maximum velocity as $\textbf{f}_{wind}\rightarrow 0$.
 
 
----
+### Sense Making: Adding Drag to the tube
 
-
-How do I argue this without being circular?
-
-*I want density to be constant and speed to decrease*
-
-For the ideal gas law:
-
-$$pV=NkT$$
-
-- $V$ is increasing (the length of the tube pressurized)
-- $N$ is increasing (need more gas to maintain the pressure)
-- $k$ is a constant
-- $T$ is a constant:
+> [!todo]
+> 
+> Argue ball has max velocity less than that of $\textbf{v}_{wind}$ by looking at pressure difference.
